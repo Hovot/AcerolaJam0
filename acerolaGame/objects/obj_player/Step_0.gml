@@ -61,7 +61,6 @@ if(deltaX == 0 or deltaY == 0){
 }
 
 
-
 //animation - loop current
 if(image_index < currentAnimation or image_index > currentAnimation + numberOfFrames - 1){
 	image_index = currentAnimation

@@ -15,6 +15,7 @@
     {"name":"inst_7E97597B","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_4142A7B3","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_23ADFBAE","path":"rooms/Level_1/Level_1.yy",},
+    {"name":"inst_717D47CA","path":"rooms/Level_1/Level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -51,6 +52,7 @@
           ],"rotation":0.0,"scaleX":1.0,"scaleY":0.5625,"x":320.0,"y":93.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4142A7B3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":295.0,"y":334.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23ADFBAE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":245.0,"y":386.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_717D47CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_depthManager","path":"objects/obj_depthManager/obj_depthManager.yy",},"properties":[],"rotation":0.0,"scaleX":3.7953072,"scaleY":2.9375,"x":-85.0,"y":37.5,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Decor2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":64,"TileCompressedData":[
 -1483,-2147483648,1,0,-322,-2147483648,3,468,469,463,-61,-2147483648,3,498,499,493,-175,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_main","path":"tilesets/ts_main/ts_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
