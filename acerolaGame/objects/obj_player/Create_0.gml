@@ -9,4 +9,4 @@ deathFrame = 41
 currentAnimation = idleFrame
 
 
-mvSpd = 1
+mvSpd = 5 //1
