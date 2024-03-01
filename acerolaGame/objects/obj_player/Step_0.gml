@@ -46,7 +46,7 @@ if(keyboard_check(vk_space)){
 
 //spawn bullet
 if(floor(image_index) == 36){
-	if(alarm_get(2) <= 0){ //just 1
+	if(alarm_get(2) <= 0){ //just 1 per cast
 		instance_create_depth(x + (15*sign(image_xscale)), y - (16*sign(image_yscale)), depth, obj_bullet)
 		alarm_set(2, 10)
 	}
