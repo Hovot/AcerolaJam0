@@ -4,7 +4,7 @@ if(target == noone){
 	x += lengthdir_x(spd, dir)
 	y += lengthdir_y(spd, dir)
 } else {
-	mp_potential_step_object(target.x, target.y, agroSpd, obj_barrier) //why mad
+	mp_potential_step_object(target.x, target.y, agroSpd, obj_groundBarrier) //why mad
 }
 
 image_angle += 5

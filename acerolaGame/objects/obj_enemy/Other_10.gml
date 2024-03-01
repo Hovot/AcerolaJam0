@@ -11,7 +11,7 @@ if(point_in_circle(obj_player.x, obj_player.y, x, y, meleeRange)){
 		//animate
 		xScale = 6
 		yScale = .2
-		obj_player.takeDmg(5)
+		obj_player.takeDmg(attackDmg)
 		alarm_set(1, atkCooldown * 60)
 	}
 

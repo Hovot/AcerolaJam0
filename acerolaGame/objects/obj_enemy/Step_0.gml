@@ -1,4 +1,11 @@
-/// @description 
+/// @description
+if(state == states.death){
+	if(yScale <= 0){
+		instance_destroy()
+	}
+	return
+}
+
 xScale = lerp(abs(xScale), scaleXGoal, 0.05) * scaleDir
 yScale = lerp(yScale, scaleYGoal, 0.05)
 

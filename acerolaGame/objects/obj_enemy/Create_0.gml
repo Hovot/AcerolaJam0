@@ -13,7 +13,8 @@ spd = 0.5
 states = {
 	wander : 1,
 	idle : 2,
-	attack : 3
+	attack : 3,
+	death : 4
 }
 
 state = states.idle
@@ -22,3 +23,28 @@ goalY = 0
 wanderRadius = 75
 
 attackRadius = 100
+attackDmg = 5
+
+hp = 25
+maxHP = 25
+hpPercent = 100
+
+color = c_white
+
+//take dmg
+takeDmg = function(val){
+	if(state == states.death){return}
+	
+	if(alarm_get(2) <= 0){
+		hp -= val
+		hpPercent = (hp / maxHP) * 100
+		color = c_red
+		if(hp <= 0){
+			state = states.death
+			alarm_set(4, 5) //death animation
+		} else { //flash dmg
+			alarm_set(2, 30)
+			alarm_set(3, 5)
+		}
+	}
+}

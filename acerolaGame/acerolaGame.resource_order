@@ -25,7 +25,7 @@
     {"name":"spr_scrolls","order":18,"path":"sprites/spr_scrolls/spr_scrolls.yy",},
     {"name":"obj_teleporter","order":2,"path":"objects/obj_teleporter/obj_teleporter.yy",},
     {"name":"spr_monsters3","order":25,"path":"sprites/spr_monsters3/spr_monsters3.yy",},
-    {"name":"obj_barrier","order":1,"path":"objects/obj_barrier/obj_barrier.yy",},
+    {"name":"obj_groundBarrier","order":1,"path":"objects/obj_groundBarrier/obj_groundBarrier.yy",},
     {"name":"spr_bullet","order":5,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"obj_bullet","order":12,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"spr_torchOff","order":29,"path":"sprites/spr_torchOff/spr_torchOff.yy",},
@@ -37,6 +37,7 @@
     {"name":"obj_npc","order":3,"path":"objects/obj_npc/obj_npc.yy",},
     {"name":"spr_items","order":17,"path":"sprites/spr_items/spr_items.yy",},
     {"name":"spr_shadows2","order":27,"path":"sprites/spr_shadows2/spr_shadows2.yy",},
+    {"name":"obj_airBarrier","order":13,"path":"objects/obj_airBarrier/obj_airBarrier.yy",},
     {"name":"spr_raidGameAd","order":2,"path":"sprites/spr_raidGameAd/spr_raidGameAd.yy",},
     {"name":"spr_table","order":9,"path":"sprites/spr_table/spr_table.yy",},
     {"name":"spr_teleporter","order":1,"path":"sprites/spr_teleporter/spr_teleporter.yy",},
@@ -69,5 +70,6 @@
     {"name":"Bugs","order":1,"path":"notes/Bugs/Bugs.yy",},
     {"name":"spr_levers","order":13,"path":"sprites/spr_levers/spr_levers.yy",},
     {"name":"spr_alters","order":14,"path":"sprites/spr_alters/spr_alters.yy",},
+    {"name":"spr_barrier2","order":2,"path":"sprites/spr_barrier2/spr_barrier2.yy",},
   ],
 }

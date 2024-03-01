@@ -12,3 +12,5 @@ dir = point_direction(x, y, mouse_x, mouse_y)
 
 seekRadius = 15
 target = noone
+
+bulletDmg = 5

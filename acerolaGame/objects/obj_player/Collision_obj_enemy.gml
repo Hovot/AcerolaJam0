@@ -1,2 +1,4 @@
 /// @description 
-takeDmg(5)
+if(other.state != other.states.death){
+	takeDmg(other.attackDmg)
+}

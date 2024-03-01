@@ -1,5 +1,14 @@
 /// @description 
 
+if(dead) {
+	if(image_index <= 1){
+		image_speed = 0
+		image_index = 49
+		global.gameOver = true
+	}
+	return	
+}
+
 var deltaX = 0
 var deltaY = 0
 
@@ -75,7 +84,6 @@ if(deltaX == 0 or deltaY == 0){
 	x += deltaX * mvSpd * sin(degtorad(45))
 	y += deltaY * mvSpd * sin(degtorad(45))
 }
-
 
 //animation - loop current
 if(image_index < currentAnimation or image_index > currentAnimation + numberOfFrames - 1){

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_barrier",
+  "name": "obj_groundBarrier",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
