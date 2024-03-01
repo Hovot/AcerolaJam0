@@ -44,6 +44,8 @@
     {"id":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},},
     {"id":{"name":"spr_monsters3","path":"sprites/spr_monsters3/spr_monsters3.yy",},},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"spr_torchOff","path":"sprites/spr_torchOff/spr_torchOff.yy",},},
     {"id":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},},
     {"id":{"name":"spr_ceiling","path":"sprites/spr_ceiling/spr_ceiling.yy",},},

@@ -26,6 +26,8 @@
     {"name":"obj_teleporter","order":2,"path":"objects/obj_teleporter/obj_teleporter.yy",},
     {"name":"spr_monsters3","order":25,"path":"sprites/spr_monsters3/spr_monsters3.yy",},
     {"name":"obj_barrier","order":1,"path":"objects/obj_barrier/obj_barrier.yy",},
+    {"name":"spr_bullet","order":5,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"obj_bullet","order":12,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"spr_torchOff","order":29,"path":"sprites/spr_torchOff/spr_torchOff.yy",},
     {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
     {"name":"spr_doorsEW","order":4,"path":"sprites/spr_doorsEW/spr_doorsEW.yy",},

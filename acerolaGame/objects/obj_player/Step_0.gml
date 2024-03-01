@@ -35,7 +35,23 @@ if(keyboard_check(vk_space)){
 	currentAnimation = attackFrame
 	deltaY = 0 //locks player when firing
 	deltaX = 0
+	
+	//face mouse
+	if(mouse_x > x){
+		image_xscale = abs(image_xscale)
+	} else {
+		image_xscale = -abs(image_xscale)
+	}
 }
+
+//spawn bullet
+if(floor(image_index) == 36){
+	if(alarm_get(2) <= 0){ //just 1
+		instance_create_depth(x + (15*sign(image_xscale)), y - (16*sign(image_yscale)), depth, obj_bullet)
+		alarm_set(2, 10)
+	}
+}
+
 
 //gesture
 if(keyboard_check(ord("V"))){
