@@ -38,6 +38,7 @@
   },
   "resources": [
     {"id":{"name":"spr_burgerAd","path":"sprites/spr_burgerAd/spr_burgerAd.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_monsters","path":"sprites/spr_monsters/spr_monsters.yy",},},
     {"id":{"name":"spr_scrolls","path":"sprites/spr_scrolls/spr_scrolls.yy",},},
     {"id":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},},
@@ -65,8 +66,10 @@
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
     {"id":{"name":"spr_books","path":"sprites/spr_books/spr_books.yy",},},
     {"id":{"name":"spr_stairs","path":"sprites/spr_stairs/spr_stairs.yy",},},
+    {"id":{"name":"obj_loot","path":"objects/obj_loot/obj_loot.yy",},},
     {"id":{"name":"spr_containers","path":"sprites/spr_containers/spr_containers.yy",},},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_torches","path":"sprites/spr_torches/spr_torches.yy",},},
     {"id":{"name":"spr_floorDec","path":"sprites/spr_floorDec/spr_floorDec.yy",},},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},},

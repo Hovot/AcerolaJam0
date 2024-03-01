@@ -1,6 +1,6 @@
 /// @description 
 
-show_debug_message(desc)
+show_debug_message("CLICKED")
 
 
 

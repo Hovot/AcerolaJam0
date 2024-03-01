@@ -20,6 +20,7 @@
     {"name":"ads","order":4,"path":"folders/Sprites/ads.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_enemy","order":11,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_monsters","order":23,"path":"sprites/spr_monsters/spr_monsters.yy",},
     {"name":"spr_scrolls","order":18,"path":"sprites/spr_scrolls/spr_scrolls.yy",},
     {"name":"obj_teleporter","order":2,"path":"objects/obj_teleporter/obj_teleporter.yy",},
@@ -44,8 +45,10 @@
     {"name":"spr_fire","order":28,"path":"sprites/spr_fire/spr_fire.yy",},
     {"name":"spr_books","order":19,"path":"sprites/spr_books/spr_books.yy",},
     {"name":"spr_stairs","order":5,"path":"sprites/spr_stairs/spr_stairs.yy",},
+    {"name":"obj_loot","order":10,"path":"objects/obj_loot/obj_loot.yy",},
     {"name":"spr_containers","order":11,"path":"sprites/spr_containers/spr_containers.yy",},
     {"name":"obj_chest","order":6,"path":"objects/obj_chest/obj_chest.yy",},
+    {"name":"obj_camera","order":9,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_torches","order":12,"path":"sprites/spr_torches/spr_torches.yy",},
     {"name":"spr_floorDec","order":7,"path":"sprites/spr_floorDec/spr_floorDec.yy",},
     {"name":"spr_floor","order":2,"path":"sprites/spr_floor/spr_floor.yy",},
