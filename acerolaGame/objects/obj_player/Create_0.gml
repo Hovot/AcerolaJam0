@@ -13,3 +13,8 @@ mvSpd = 2 //1
 
 
 money = 0
+hp = 100
+
+color = c_white
+
+randomize()
