@@ -17,4 +17,14 @@ hp = 100
 
 color = c_white
 
+//take dmg
+takeDmg = function(val){
+	if(alarm_get(0) <= 0){
+		hp -= val
+		color = c_red
+		alarm_set(0, 30)
+		alarm_set(1, 5)
+	}
+}
+
 randomize()

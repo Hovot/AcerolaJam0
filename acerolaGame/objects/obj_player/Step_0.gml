@@ -51,7 +51,7 @@ if(keyboard_check(ord("B"))){
 	deltaX = 0
 }
 
-
+//actually move
 if(deltaX == 0 or deltaY == 0){
 	x += deltaX * mvSpd
 	y += deltaY * mvSpd
