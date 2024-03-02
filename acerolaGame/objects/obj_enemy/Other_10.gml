@@ -17,11 +17,15 @@ if(point_in_circle(obj_player.x, obj_player.y, x, y, meleeRange)){
 
 	
 } else {
-	var oldX = x
-	mp_potential_step(obj_player.x, obj_player.y, agroSpd, false)
+	var tgtDir = point_direction(x, y, obj_player.x, obj_player.y)
+	goalX = lengthdir_x(agroSpd, tgtDir)
+	goalY = lengthdir_y(agroSpd, tgtDir)
+	
+	//var hit = move_and_collide(goalX, goalY, [ceilingTiles, wallTiles]) //This one is dumb but works with tile sets
+	mp_potential_step_object(obj_player.x, obj_player.y, agroSpd, obj_barrier.id) //no tile sets, sadge
 
-	if(sign(x - oldX) != 0){
-		scaleDir = -sign(x - oldX)
+	if(goalX != 0){ //face dir moving
+		scaleDir = -sign(goalX)
 	}
 }
 

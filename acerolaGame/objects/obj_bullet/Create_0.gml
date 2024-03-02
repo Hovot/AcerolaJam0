@@ -14,3 +14,5 @@ seekRadius = 15
 target = noone
 
 bulletDmg = 5
+
+ceilingTiles = layer_tilemap_get_id("Blackness")

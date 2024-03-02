@@ -1,7 +1,0 @@
-/// @description 
-instance_destroy()
-
-
-
-
-

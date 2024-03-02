@@ -9,41 +9,34 @@ if(dead) {
 	return	
 }
 
-var deltaX = 0
-var deltaY = 0
+//get input
+var moveX = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+var moveY = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 
-//movement
-if(keyboard_check(ord("W")) or keyboard_check(vk_up)){
-	deltaY -= 1
-	currentAnimation = walkFrame
+//fix fast diagonal
+if(moveX == 0 or moveY == 0){
+	moveX *= mvSpd
+	moveY *= mvSpd
+} else {
+	moveX *= mvSpd * sin(degtorad(45))
+	moveY *= mvSpd * sin(degtorad(45))
 }
 
-if(keyboard_check(ord("S")) or keyboard_check(vk_down)){
-	deltaY += 1
-	currentAnimation = walkFrame
+if(moveX != 0){
+	image_xscale = sign(moveX)
 }
 
-if(keyboard_check(ord("D")) or keyboard_check(vk_right)){
-	deltaX += 1
+if(moveX != 0 or moveY != 0){
 	currentAnimation = walkFrame
-	image_xscale = abs(image_xscale)
-}
-if(keyboard_check(ord("A")) or keyboard_check(vk_left)){
-	deltaX -= 1
-	currentAnimation = walkFrame
-	image_xscale = -abs(image_xscale)
-}
-
-//idle if no movement
-if(deltaX == 0 and deltaY == 0){
+} else {
 	currentAnimation = idleFrame
 }
 
 //attack
 if(keyboard_check(vk_space)){
 	currentAnimation = attackFrame
-	deltaY = 0 //locks player when firing
-	deltaX = 0
+	moveX = 0 //locks player when firing
+	moveY = 0
 	
 	//face mouse
 	if(mouse_x > x){
@@ -65,25 +58,12 @@ if(floor(image_index) == 36){
 //gesture
 if(keyboard_check(ord("V"))){
 	currentAnimation = gestureFrame
-	deltaY = 0 //locks player when firing
-	deltaX = 0
-}
-
-//die
-if(keyboard_check(ord("B"))){
-	currentAnimation = deathFrame
-	deltaY = 0 //locks player when firing
-	deltaX = 0
+	moveX = 0 //locks player when firing
+	moveY = 0
 }
 
 //actually move
-if(deltaX == 0 or deltaY == 0){
-	x += deltaX * mvSpd
-	y += deltaY * mvSpd
-} else {
-	x += deltaX * mvSpd * sin(degtorad(45))
-	y += deltaY * mvSpd * sin(degtorad(45))
-}
+move_and_collide(moveX, moveY, collisionList, 4, 0, 0, mvSpd, mvSpd)
 
 //animation - loop current
 if(image_index < currentAnimation or image_index > currentAnimation + numberOfFrames - 1){

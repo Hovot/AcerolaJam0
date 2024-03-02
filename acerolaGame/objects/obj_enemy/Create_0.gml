@@ -8,6 +8,9 @@ scaleDir = 1
 xScale = 1
 yScale = 1
 
+ceilingTiles = layer_tilemap_get_id("Blackness")
+wallTiles = layer_tilemap_get_id("Walls")
+
 spd = 0.5
 
 states = {
@@ -20,7 +23,8 @@ states = {
 state = states.idle
 goalX = 0
 goalY = 0
-wanderRadius = 75
+maxWanderTime = 120
+minWanderTime = 30
 
 attackRadius = 100
 attackDmg = 5

@@ -1,5 +1,11 @@
 /// @description 
 
+ceilingTiles = layer_tilemap_get_id("Blackness")
+wallTiles = layer_tilemap_get_id("Walls")
+
+//Things I hit that STOP movement, if just want to know hit, use collision event
+collisionList = [ceilingTiles, wallTiles, obj_npc, obj_chest]
+
 numberOfFrames = 10
 idleFrame = 1
 gestureFrame = 11

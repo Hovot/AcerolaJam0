@@ -6,9 +6,11 @@ if(state == states.death){
 	return
 }
 
+//non-artist animation
 xScale = lerp(abs(xScale), scaleXGoal, 0.05) * scaleDir
 yScale = lerp(yScale, scaleYGoal, 0.05)
 
+//bounce back and forth
 if(abs(xScale) >= scaleMax-.01){ //ah float math
 	scaleXGoal = scaleMin
 	scaleYGoal = scaleMax
@@ -32,22 +34,25 @@ if(state == states.idle && alarm_get(0) <= 0){
 
 } else if(state == states.wander){
 	if(goalX == 0 && goalY == 0){
-		//new location
-		goalX = irandom_range(x - wanderRadius, x + wanderRadius)
-		goalY = irandom_range(y - wanderRadius, y + wanderRadius)
-	} else if(abs(x - goalX) < 5 && abs(y - goalY) < 5){
-		//reached our goal
-		state = states.idle
-		goalX = 0
-		goalY = 0
-	} else { //have a goal, we havent reached 
-		var deltaX = sign(-(x - goalX))*spd
-		var deltaY = sign(-(y - goalY))*spd
-		if(sign(deltaX) != 0){
-			scaleDir = -sign(deltaX)
+		//random direction
+		var tgtDir = irandom_range(0, 360)
+		goalX = lengthdir_x(spd, tgtDir)
+		goalY = lengthdir_y(spd, tgtDir)
+		alarm_set(5, irandom_range(minWanderTime, maxWanderTime))  //how long to wander
+		
+	} else { //still wandering, but have a dir
+		var hit = move_and_collide(goalX, goalY, [ceilingTiles, wallTiles])
+		
+		if(goalX != 0){ //face dir moving
+			scaleDir = -sign(goalX)
 		}
-		x += deltaX
-		y += deltaY
+		
+		if(array_length(hit) > 0){
+			//hit something
+			goalX = 0
+			goalY = 0
+			state = states.idle
+		}
 	}
 	
 } else if(state == states.attack){
