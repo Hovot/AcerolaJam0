@@ -1,6 +1,6 @@
-/// @description 
+/// @description override me
 
-show_debug_message("CLICKED")
+drawText(desc, id)
 
 
 
