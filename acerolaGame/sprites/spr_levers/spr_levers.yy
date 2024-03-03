@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_levers",
   "bbox_bottom": 12,
-  "bbox_left": 1,
-  "bbox_right": 15,
+  "bbox_left": 2,
+  "bbox_right": 16,
   "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -72,5 +72,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 16,
+  "width": 18,
 }
