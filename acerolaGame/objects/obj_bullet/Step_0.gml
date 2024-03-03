@@ -13,7 +13,7 @@ var hit = move_and_collide(goalX, goalY, [ceilingTiles, obj_enemy])
 
 	
 for(var i = 0; i < array_length(hit); i++){
-	if(hit[i] == ceilingTiles){
+	if(!instance_exists(hit[i])){
 		instance_destroy()
 		
 	} else if(hit[i].object_index == obj_enemy){

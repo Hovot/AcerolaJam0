@@ -1,4 +1,5 @@
 /// @description
+
 if(state == states.death){
 	if(yScale <= 0){
 		instance_destroy()

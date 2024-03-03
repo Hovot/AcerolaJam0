@@ -1,1 +1,2 @@
 which mob pathfinding?
+bullets go through doors
