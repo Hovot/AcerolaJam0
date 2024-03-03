@@ -54,6 +54,7 @@
     {"id":{"name":"spr_all","path":"sprites/spr_all/spr_all.yy",},},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"spr_items","path":"sprites/spr_items/spr_items.yy",},},
+    {"id":{"name":"spr_bagOfLoot","path":"sprites/spr_bagOfLoot/spr_bagOfLoot.yy",},},
     {"id":{"name":"spr_shadows2","path":"sprites/spr_shadows2/spr_shadows2.yy",},},
     {"id":{"name":"spr_raidGameAd","path":"sprites/spr_raidGameAd/spr_raidGameAd.yy",},},
     {"id":{"name":"spr_wallStuff","path":"sprites/spr_wallStuff/spr_wallStuff.yy",},},

@@ -35,6 +35,7 @@
     {"name":"spr_all","order":2,"path":"sprites/spr_all/spr_all.yy",},
     {"name":"obj_npc","order":3,"path":"objects/obj_npc/obj_npc.yy",},
     {"name":"spr_items","order":17,"path":"sprites/spr_items/spr_items.yy",},
+    {"name":"spr_bagOfLoot","order":32,"path":"sprites/spr_bagOfLoot/spr_bagOfLoot.yy",},
     {"name":"spr_shadows2","order":27,"path":"sprites/spr_shadows2/spr_shadows2.yy",},
     {"name":"spr_raidGameAd","order":2,"path":"sprites/spr_raidGameAd/spr_raidGameAd.yy",},
     {"name":"spr_wallStuff","order":30,"path":"sprites/spr_wallStuff/spr_wallStuff.yy",},

@@ -22,6 +22,8 @@
     {"name":"inst_14908A65","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_66B73B99","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_35735A0C","path":"rooms/Level_1/Level_1.yy",},
+    {"name":"inst_5D1A3923","path":"rooms/Level_1/Level_1.yy",},
+    {"name":"inst_1F366F2A","path":"rooms/Level_1/Level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -46,6 +48,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14908A65","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":137.0,"y":423.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35735A0C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":3,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":367.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66B73B99","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":309.0,"y":401.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D1A3923","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":264.0,"y":386.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F366F2A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":4,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":284.0,"y":386.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"WallDecor","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":64,"TileCompressedData":[
 -1231,-2147483648,3,10,-2147483648,62,-59,-2147483648,3,62,-2147483648,43,-120,-2147483648,2,10,62,-62,-2147483648,1,43,-12,-2147483648,3,62,-2147483648,13,-3,-2147483648,1,62,-3,-2147483648,4,12,-2147483648,-2147483648,62,-52,-2147483648,1,46,-7,-2147483648,1,45,-103,-2147483648,1,16,-63,-2147483648,1,49,-312,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_walls","path":"tilesets/ts_walls/ts_walls.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
