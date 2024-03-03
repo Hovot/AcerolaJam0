@@ -2,4 +2,4 @@
 event_inherited()
 
 desc = "Does something"
-opensDoor = noone
+opensDoor = [noone]

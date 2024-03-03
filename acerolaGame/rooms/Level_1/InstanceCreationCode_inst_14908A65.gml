@@ -1,1 +1,1 @@
-opensDoor = inst_66B73B99
+opensDoor = [inst_66B73B99, inst_35735A0C]
