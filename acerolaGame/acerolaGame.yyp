@@ -81,7 +81,7 @@
     {"id":{"name":"spr_floorDec","path":"sprites/spr_floorDec/spr_floorDec.yy",},},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},},
     {"id":{"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},},
-    {"id":{"name":"sq_lootDrop","path":"sequences/sq_lootDrop/sq_lootDrop.yy",},},
+    {"id":{"name":"sq_lootDropCommon","path":"sequences/sq_lootDropCommon/sq_lootDropCommon.yy",},},
     {"id":{"name":"spr_characters","path":"sprites/spr_characters/spr_characters.yy",},},
     {"id":{"name":"spr_monsters2","path":"sprites/spr_monsters2/spr_monsters2.yy",},},
     {"id":{"name":"spr_weapons","path":"sprites/spr_weapons/spr_weapons.yy",},},

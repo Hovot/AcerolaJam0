@@ -11,7 +11,7 @@ if(inCircle && outline){
 }
 
 
-draw_circle(x, y, radius, true)
+//draw_circle(x, y, radius, true)
 
 
 
