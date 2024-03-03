@@ -1,5 +1,5 @@
-openSprite = spr_doors
-openFrame = 7
+openSprite = spr_doorsNS
+openFrame = 3
 
-closedSprite = spr_doors
-closedFrame = 6
+closedSprite = spr_doorsEW
+closedFrame = 3
