@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSequence",
   "resourceVersion": "1.4",
-  "name": "sq_adBurger",
+  "name": "sq_adRaid",
   "autoRecord": false,
   "backdropHeight": 270,
   "backdropImageOpacity": 0.5,
@@ -81,7 +81,7 @@
             ],},"modifiers":[],"trackColour":4282970729,"tracks":[],"traits":0,},
       ],"traits":0,},
     {"resourceType":"GMGraphicTrack","resourceVersion":"1.0","name":"spr_burgerAd","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"1.0","Keyframes":[
-          {"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetSpriteKeyframe","resourceVersion":"1.0","Id":{"name":"spr_burgerAd","path":"sprites/spr_burgerAd/spr_burgerAd.yy",},},},"Disabled":false,"id":"c58d6880-1dcc-4361-b548-93731d4051b6","IsCreationKey":false,"Key":0.0,"Length":60.0,"Stretch":false,},
+          {"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetSpriteKeyframe","resourceVersion":"1.0","Id":{"name":"spr_raidGameAd","path":"sprites/spr_raidGameAd/spr_raidGameAd.yy",},},},"Disabled":false,"id":"2a693b68-0863-4cd4-9062-7e0f6c61bdd0","IsCreationKey":false,"Key":0.0,"Length":60.0,"Stretch":false,},
         ],},"modifiers":[],"trackColour":4293150962,"tracks":[
         {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"1.0","Keyframes":[
               {"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},"1":{"resourceType":"RealKeyframe","resourceVersion":"1.0","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,},},"Disabled":false,"id":"65fc60db-0565-47b5-a3f7-f87fed87cae5","IsCreationKey":true,"Key":0.0,"Length":1.0,"Stretch":false,},

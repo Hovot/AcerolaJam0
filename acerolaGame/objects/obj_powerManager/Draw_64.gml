@@ -25,7 +25,7 @@ if(burgerPower){
 
 if(raidPower){
 	draw_rectangle_color(leftX, upY + spacing*1, rightX, lowerY + spacing*1, mainColor, commonColor, mainColor, mainColor, false)
-	draw_sprite_ext(raidSprite, 0, 50, upY + spacing*1 + midY, 4, 4, 0, c_white, 1)
+	draw_sprite_ext(raidSprite, 0, 50, upY + spacing*1 + midY, 1, 1, 0, c_white, 1)
 } else {
 	draw_rectangle_color(leftX, upY + spacing*1, rightX - teaseSize, lowerY + spacing*1, mainColor, commonColor, mainColor, mainColor, false) //what a tease, more powers await
 }

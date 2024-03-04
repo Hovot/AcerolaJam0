@@ -4,8 +4,8 @@
 burgerPower = false
 burgerSprite = spr_burgerPower
 
-raidPower = false
-raidSprite = spr_burgerPower
+raidPower = true
+raidSprite = spr_raidPower
 
 shavePower = false
 shaveSprite = spr_burgerPower

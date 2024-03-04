@@ -15,7 +15,7 @@ pickPowerAndPlay = function(){
 	
 	switch(powerGained){
 		case 0: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
-		case 1: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
+		case 1: adSeq = sq_adRaid; suckSeq = sq_adRaidSuck; break
 		case 2: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
 		case 3: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
 		case 4: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
