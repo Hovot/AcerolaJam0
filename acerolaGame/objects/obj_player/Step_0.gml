@@ -9,6 +9,16 @@ if(dead) {
 	return	
 }
 
+if(powerUp && image_index >= gestureFrame + numberOfFrames - 1){ //powerup animation exit
+	currentAnimation = idleFrame
+	powerUp = false
+	powerManager.gainPower(powerGained)
+}
+
+if(powerUp){return} //playing powerup animation
+
+
+
 //get input
 var moveX = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 var moveY = keyboard_check(ord("S")) - keyboard_check(ord("W"))
@@ -52,14 +62,6 @@ if(floor(image_index) == 36){
 		instance_create_depth(x + (15*sign(image_xscale)), y - (16*sign(image_yscale)), depth, obj_bullet)
 		alarm_set(2, 10)
 	}
-}
-
-
-//gesture
-if(keyboard_check(ord("V"))){
-	currentAnimation = gestureFrame
-	moveX = 0 //locks player when firing
-	moveY = 0
 }
 
 //actually move

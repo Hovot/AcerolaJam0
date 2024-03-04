@@ -32,6 +32,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"adStuff","folderPath":"folders/Objects/adStuff.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"meta","folderPath":"folders/Objects/meta.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"powers","folderPath":"folders/Sprites/powers.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"powers","folderPath":"folders/Objects/powers.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

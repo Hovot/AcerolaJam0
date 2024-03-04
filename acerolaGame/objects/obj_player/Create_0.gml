@@ -15,6 +15,7 @@ deathFrame = 41
 currentAnimation = idleFrame
 
 dead = false
+powerUp = false
 
 mvSpd = 2 //1
 
@@ -41,7 +42,7 @@ takeDmg = function(val){
 
 
 powerManager = instance_create_depth(0, 0, depth, obj_powerManager)
-
+powerGained = 0
 
 
 randomize()

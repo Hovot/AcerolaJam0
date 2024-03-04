@@ -1,40 +1,58 @@
 /// @description 
 
 //common
-burgerPower = true
+burgerPower = false
 burgerSprite = spr_burgerPower
 
 raidPower = false
-raidSprite = noone
+raidSprite = spr_burgerPower
 
 shavePower = false
-shaveSprite = noone
+shaveSprite = spr_burgerPower
 
 phonePower = false
-phoneSprite = noone
+phoneSprite = spr_burgerPower
 
 datingPower = false
-datingSprite = noone
+datingSprite = spr_burgerPower
 
 wandLargePower = false
-wandLargeSprite = noone
+wandLargeSprite = spr_burgerPower
 
 //rare
 runnerPower = false
-runnerSprite = noone
+runnerSprite = spr_burgerPower
 
 clashPower = false
-clashSprite = noone
+clashSprite = spr_burgerPower
 
 skinPower = false
-skinSprite = noone
+skinSprite = spr_burgerPower
 
 //ultra rare
 bugPower = false
-bugSprite = noone
+bugSprite = spr_burgerPower
 
 crashPower = false
-crashSprite = noone
+crashSprite = spr_burgerPower
 
 BSODPower = false
-BSODSprite = noone
+BSODSprite = spr_burgerPower
+
+
+gainPower = function(numGained){
+	switch(numGained){
+		case 0: burgerPower = true break
+		case 1: raidPower = true break
+		case 2: shavePower = true break
+		case 3: phonePower = true break
+		case 4: datingPower = true break
+		case 5: wandLargePower = true break
+		case 6: runnerPower = true break
+		case 7: clashPower = true break
+		case 8: skinPower = true break
+		case 9: bugPower = true break
+		case 10: crashPower = true break
+		case 11: BSODPower = true break
+	}
+}

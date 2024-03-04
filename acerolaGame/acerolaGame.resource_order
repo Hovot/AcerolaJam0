@@ -21,6 +21,7 @@
     {"name":"adStuff","order":19,"path":"folders/Objects/adStuff.yy",},
     {"name":"meta","order":20,"path":"folders/Objects/meta.yy",},
     {"name":"powers","order":6,"path":"folders/Sprites/powers.yy",},
+    {"name":"powers","order":21,"path":"folders/Objects/powers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_powerManager","order":5,"path":"objects/obj_powerManager/obj_powerManager.yy",},
