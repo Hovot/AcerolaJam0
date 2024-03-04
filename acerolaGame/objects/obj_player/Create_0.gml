@@ -39,4 +39,9 @@ takeDmg = function(val){
 	}
 }
 
+
+powerManager = instance_create_depth(0, 0, depth, obj_powerManager)
+
+
+
 randomize()

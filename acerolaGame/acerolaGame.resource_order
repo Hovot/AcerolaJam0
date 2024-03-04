@@ -20,8 +20,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"adStuff","order":19,"path":"folders/Objects/adStuff.yy",},
     {"name":"meta","order":20,"path":"folders/Objects/meta.yy",},
+    {"name":"powers","order":6,"path":"folders/Sprites/powers.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_powerManager","order":5,"path":"objects/obj_powerManager/obj_powerManager.yy",},
     {"name":"obj_enemy","order":11,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_monsters","order":23,"path":"sprites/spr_monsters/spr_monsters.yy",},
     {"name":"spr_scrolls","order":18,"path":"sprites/spr_scrolls/spr_scrolls.yy",},

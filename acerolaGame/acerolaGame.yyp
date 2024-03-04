@@ -31,6 +31,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"adStuff","folderPath":"folders/Objects/adStuff.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"meta","folderPath":"folders/Objects/meta.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"powers","folderPath":"folders/Sprites/powers.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -39,6 +40,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_powerManager","path":"objects/obj_powerManager/obj_powerManager.yy",},},
     {"id":{"name":"spr_burgerAd","path":"sprites/spr_burgerAd/spr_burgerAd.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_monsters","path":"sprites/spr_monsters/spr_monsters.yy",},},
@@ -66,6 +68,7 @@
     {"id":{"name":"sc_textBubble","path":"scripts/sc_textBubble/sc_textBubble.yy",},},
     {"id":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},},
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
+    {"id":{"name":"spr_burgerPower","path":"sprites/spr_burgerPower/spr_burgerPower.yy",},},
     {"id":{"name":"mainNotes","path":"notes/mainNotes/mainNotes.yy",},},
     {"id":{"name":"spr_teleporter","path":"sprites/spr_teleporter/spr_teleporter.yy",},},
     {"id":{"name":"spr_potions","path":"sprites/spr_potions/spr_potions.yy",},},
