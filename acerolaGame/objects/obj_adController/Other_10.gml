@@ -7,4 +7,5 @@ var seqInst = layer_sequence_get_instance(seq)
 sequence_instance_override_object(seqInst, obj_powerButton, instance_create_layer(x, y, "AdLayer", obj_powerButton, {suckSeq: other.suckSeq, powerGained : other.powerGained}))
 //seq deleted by button
 
+instance_create_layer(0, 0, "AdLayer", obj_sucker)
 
