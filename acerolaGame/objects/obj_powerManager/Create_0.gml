@@ -4,38 +4,37 @@
 burgerPower = true
 burgerSprite = spr_burgerPower
 
-raidPower = true
+raidPower = false
 raidSprite = noone
 
-shavePower = true
+shavePower = false
 shaveSprite = noone
 
-//uncommon
-phonePower = true
+phonePower = false
 phoneSprite = noone
 
-datingPower = true
+datingPower = false
 datingSprite = noone
 
-wandLargePower = true
+wandLargePower = false
 wandLargeSprite = noone
 
 //rare
-runnerPower = true
+runnerPower = false
 runnerSprite = noone
 
-clashPower = true
+clashPower = false
 clashSprite = noone
 
-skinPower = true
+skinPower = false
 skinSprite = noone
 
 //ultra rare
-bugPower = true
+bugPower = false
 bugSprite = noone
 
-crashPower = true
+crashPower = false
 crashSprite = noone
 
-BSODPower = true
+BSODPower = false
 BSODSprite = noone
