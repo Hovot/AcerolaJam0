@@ -24,8 +24,8 @@
     "Keyframes": [],
   },
   "parent": {
-    "name": "Sequences",
-    "path": "folders/Sequences.yy",
+    "name": "Sucks",
+    "path": "folders/Sequences/Sucks.yy",
   },
   "playback": 0,
   "playbackSpeed": 30.0,

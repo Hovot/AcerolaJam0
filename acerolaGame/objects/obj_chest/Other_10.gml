@@ -10,6 +10,8 @@ if(not looted){
 	
 	//play seq
 	seq = layer_sequence_create("Instances", x, y, dropSeq)
+	layer_sequence_xscale(seq, image_xscale)
+	layer_sequence_yscale(seq, image_yscale)
 	var seqInst = layer_sequence_get_instance(seq)
 	sequence_instance_override_object(seqInst, obj_chest, id)
 	sequence_instance_override_object(seqInst, obj_loot, loot)
