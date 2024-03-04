@@ -1,10 +1,8 @@
 /// @description 
 
-
-if(keyboard_check_pressed(ord("P"))){
-	event_user(0)
+if(keyboard_check_pressed(ord("Y"))){
+	pickPowerAndPlay()
 }
-
 
 
 
