@@ -10,5 +10,10 @@ if(keyboard_check_pressed(vk_escape)){
 }
 
 
-
+if(mouse_check_button_pressed(mb_left)){
+	cursor_sprite = spr_wandCursorClick
+}
+if(mouse_check_button_released(mb_left)){
+	cursor_sprite = spr_wandCursor
+}
 

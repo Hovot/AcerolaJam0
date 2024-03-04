@@ -14,4 +14,6 @@ pauseAllButMe = function(){
 	}
 }
 
+cursor_sprite = spr_wandCursor
 
+window_set_cursor(cr_none)
