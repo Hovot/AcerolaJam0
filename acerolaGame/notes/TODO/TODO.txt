@@ -5,6 +5,7 @@ ADS
 DIF ENEMIES
 remove gameManager / player from each room, its persistant
 
+I c u
 
 
 
