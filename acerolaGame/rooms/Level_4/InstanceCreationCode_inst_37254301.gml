@@ -1,0 +1,1 @@
+opensDoor = [inst_16F36350]
