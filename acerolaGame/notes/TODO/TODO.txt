@@ -2,9 +2,8 @@ FINISH:
 SHOP
 POWERS
 ADS
-LEVELS
 DIF ENEMIES
-remove gameManager from each room, its persistant
+remove gameManager / player from each room, its persistant
 
 
 
