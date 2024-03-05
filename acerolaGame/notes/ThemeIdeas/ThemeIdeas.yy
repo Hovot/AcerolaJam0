@@ -1,7 +1,7 @@
 {
   "resourceType": "GMNotes",
   "resourceVersion": "1.1",
-  "name": "mainNotes",
+  "name": "ThemeIdeas",
   "parent": {
     "name": "Notes",
     "path": "folders/Notes.yy",
