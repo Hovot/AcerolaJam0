@@ -9,7 +9,7 @@ if(path_speed != 0){
 		xScale = - abs(xScale)
 	}
 
-	previousX = path_get_x(path, path_position)
+	previousX = x
 }
 
 

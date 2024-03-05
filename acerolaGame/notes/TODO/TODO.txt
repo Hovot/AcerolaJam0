@@ -4,6 +4,7 @@ POWERS
 ADS
 LEVELS
 DIF ENEMIES
+remove gameManager from each room, its persistant
 
 
 
