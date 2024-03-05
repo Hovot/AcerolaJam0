@@ -4,10 +4,10 @@ if(inCircle && outline){
 	shader_set(sh_outline)
 	shader_set_uniform_f(uPixelH, texelH)
 	shader_set_uniform_f(uPixelW, texelW)
-	draw_self()
+	draw_sprite_ext(sprite_index, image_index, x, y, xScale, yScale, 0, c_white, 1)
 	shader_reset()
 } else {
-	draw_self()
+	draw_sprite_ext(sprite_index, image_index, x, y, xScale, yScale, 0, c_white, 1)
 }
 
 

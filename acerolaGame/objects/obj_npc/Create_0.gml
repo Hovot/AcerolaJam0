@@ -5,7 +5,7 @@ outline = false
 
 desc = "hi there"
 
-
+watchPlayer = true
 
 
 

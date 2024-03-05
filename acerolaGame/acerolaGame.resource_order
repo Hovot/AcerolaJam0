@@ -24,6 +24,7 @@
     {"name":"powers","order":6,"path":"folders/Sprites/powers.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"shop","order":23,"path":"folders/Objects/shop.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_powerManager","order":5,"path":"objects/obj_powerManager/obj_powerManager.yy",},
@@ -41,6 +42,7 @@
     {"name":"Level_5","order":11,"path":"rooms/Level_5/Level_5.yy",},
     {"name":"obj_bullet","order":12,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
+    {"name":"obj_shopOwner","order":1,"path":"objects/obj_shopOwner/obj_shopOwner.yy",},
     {"name":"spr_doorsEW","order":4,"path":"sprites/spr_doorsEW/spr_doorsEW.yy",},
     {"name":"f_npcText","order":1,"path":"fonts/f_npcText/f_npcText.yy",},
     {"name":"spr_shadows","order":26,"path":"sprites/spr_shadows/spr_shadows.yy",},
