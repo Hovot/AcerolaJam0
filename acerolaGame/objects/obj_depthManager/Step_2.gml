@@ -1,5 +1,5 @@
 /// @description 
-with(all){
+with(obj_depthSorted){
 	depth = -bbox_bottom	
 }
 

@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_door",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_table",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "shop",
+    "path": "folders/Objects/shop.yy",
   },
   "parentObjectId": {
     "name": "obj_depthSorted",
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_doorsEW",
-    "path": "sprites/spr_doorsEW/spr_doorsEW.yy",
+    "name": "spr_table2",
+    "path": "sprites/spr_table2/spr_table2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

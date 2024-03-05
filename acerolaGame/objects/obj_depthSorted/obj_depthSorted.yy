@@ -1,20 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_door",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_depthSorted",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "meta",
+    "path": "folders/Objects/meta.yy",
   },
-  "parentObjectId": {
-    "name": "obj_depthSorted",
-    "path": "objects/obj_depthSorted/obj_depthSorted.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_doorsEW",
-    "path": "sprites/spr_doorsEW/spr_doorsEW.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
