@@ -37,7 +37,7 @@ moveToPivot = function(){ //wish I didnt have to do this, but it works lol
 			case 2: y = y break
 			case 3: y = y break
 			case 4: y += 16 break
-			case 5: y += 16 break
+			case 5: y = y break
 		}
 	
 	} else { //NS doors
@@ -47,7 +47,7 @@ moveToPivot = function(){ //wish I didnt have to do this, but it works lol
 			case 2: y = y break
 			case 3: y = y break
 			case 4: y -= 16 break
-			case 5: y -= 16 break
+			case 5: y = y break
 		}
 	}
 
