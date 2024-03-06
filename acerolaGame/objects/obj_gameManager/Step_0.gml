@@ -1,6 +1,6 @@
 /// @description 
 
-if(keyboard_check_pressed(vk_escape)){
+if(keyboard_check_pressed(vk_escape) && room != EndOfGame){
 	global.paused = !global.paused
 	if(global.paused){
 		instance_deactivate_all(true)

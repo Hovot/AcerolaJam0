@@ -1,6 +1,6 @@
 /// @description 
 
-if(showTimeInLevels && showTime){
+if(showTimeInLevels && showTime && room != EndOfGame){
 	var time = totalTime
 	
 	var hours = string(floor(time/(gameFrames*60*60)))
