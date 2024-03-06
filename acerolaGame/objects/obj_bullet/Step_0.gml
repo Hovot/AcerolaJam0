@@ -4,7 +4,7 @@ var goalX = lengthdir_x(spd, dir)
 var goalY = lengthdir_y(spd, dir)
 
 if(target != noone){
-	var tgtDir = point_direction(x, y, target.x, target.y - target.sprite_height/2)
+	var tgtDir = point_direction(x, y, target.x*target.image_xscale, target.y*target.image_yscale - target.sprite_height/2)
 	goalX = lengthdir_x(agroSpd, tgtDir)
 	goalY = lengthdir_y(agroSpd, tgtDir)
 }

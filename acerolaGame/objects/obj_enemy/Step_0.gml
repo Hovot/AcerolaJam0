@@ -1,24 +1,15 @@
 /// @description
 
 if(state == states.death){
-	if(yScale <= 0){
-		instance_destroy()
+	if(image_index <= 1){
+		color = c_white
+		image_speed = 0
+		image_index = 49
+		alarm_set(6, deSpawnTime)
 	}
 	return
 }
 
-//non-artist animation
-xScale = lerp(abs(xScale), scaleXGoal, 0.05) * scaleDir
-yScale = lerp(yScale, scaleYGoal, 0.05)
-
-//bounce back and forth
-if(abs(xScale) >= scaleMax-.01){ //ah float math
-	scaleXGoal = scaleMin
-	scaleYGoal = scaleMax
-} else if(abs(xScale) <= scaleMin+.01){
-	scaleXGoal = scaleMax
-	scaleYGoal = scaleMin
-}
 
 
 //scan for player
@@ -31,9 +22,12 @@ if(point_in_circle(obj_player.x, obj_player.y, x, y, attackRadius)){
 }
 
 if(state == states.idle && alarm_get(0) <= 0){
+	currentAnimation = idleFrame
 	alarm_set(0, irandom_range(60, 75)) //wait for a second ish, then randomly do something else
 
 } else if(state == states.wander){
+	currentAnimation = walkFrame
+	
 	if(goalX == 0 && goalY == 0){
 		//random direction
 		var tgtDir = irandom_range(0, 360)
@@ -45,7 +39,7 @@ if(state == states.idle && alarm_get(0) <= 0){
 		var hit = move_and_collide(goalX, goalY, [ceilingTiles, wallTiles])
 		
 		if(goalX != 0){ //face dir moving
-			scaleDir = -sign(goalX)
+			image_xscale = -sign(goalX)
 		}
 		
 		if(array_length(hit) > 0){
@@ -61,3 +55,7 @@ if(state == states.idle && alarm_get(0) <= 0){
 }
 
 
+//animation - loop current
+if(image_index < currentAnimation or image_index > currentAnimation + numberOfFrames - 1){
+	image_index = currentAnimation
+}

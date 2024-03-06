@@ -7,16 +7,15 @@ var atkCooldown = 1 //seconds
 
 //is player in range?
 if(point_in_circle(obj_player.x, obj_player.y, x, y, meleeRange)){
+	currentAnimation = attackFrame
 	if(alarm_get(1) <= 0){
-		//animate
-		xScale = 6
-		yScale = .2
 		obj_player.takeDmg(attackDmg)
 		alarm_set(1, atkCooldown * 60)
 	}
 
 	
 } else {
+	currentAnimation = walkFrame
 	var tgtDir = point_direction(x, y, obj_player.x, obj_player.y)
 	goalX = lengthdir_x(agroSpd, tgtDir)
 	goalY = lengthdir_y(agroSpd, tgtDir)
@@ -25,7 +24,7 @@ if(point_in_circle(obj_player.x, obj_player.y, x, y, meleeRange)){
 	mp_potential_step_object(obj_player.x, obj_player.y, agroSpd, obj_barrier) //no tile sets, sadge
 
 	if(goalX != 0){ //face dir moving
-		scaleDir = -sign(goalX)
+		image_xscale = -sign(goalX)
 	}
 }
 

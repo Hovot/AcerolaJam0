@@ -1,12 +1,13 @@
 /// @description 
-scaleMax = 1.2
-scaleMin = 0.8
-scaleXGoal = scaleMax
-scaleYGoal = scaleMin
-currentScale = 1
-scaleDir = 1
-xScale = 1
-yScale = 1
+numberOfFrames = 10
+idleFrame = 1
+gestureFrame = 11
+walkFrame = 21
+attackFrame = 31
+deathFrame = 41
+currentAnimation = idleFrame
+
+deSpawnTime = 60*3
 
 ceilingTiles = layer_tilemap_get_id("Blackness")
 wallTiles = layer_tilemap_get_id("Walls")
@@ -45,7 +46,7 @@ takeDmg = function(val){
 		color = c_red
 		if(hp <= 0){
 			state = states.death
-			alarm_set(4, 5) //death animation
+			alarm_set(4, 35) //death animation
 		} else { //flash dmg
 			alarm_set(2, 30)
 			alarm_set(3, 5)
