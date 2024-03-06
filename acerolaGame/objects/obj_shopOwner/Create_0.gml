@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+desc = "Take a look"
+
 watchPlayer = false
 
 path = pth_shop

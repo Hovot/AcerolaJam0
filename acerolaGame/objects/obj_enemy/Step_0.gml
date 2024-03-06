@@ -48,7 +48,7 @@ if(state == states.idle && alarm_get(0) <= 0){
 		alarm_set(5, irandom_range(minWanderTime, maxWanderTime))  //how long to wander
 		
 	} else { //still wandering, but have a dir
-		var hit = move_and_collide(goalX, goalY, [ceilingTiles, wallTiles])
+		var hit = move_and_collide(goalX, goalY, [ceilingTiles, wallTiles, obj_door]) //includes open doors
 		
 		if(goalX != 0){ //face dir moving
 			xDir = -sign(goalX)

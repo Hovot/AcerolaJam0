@@ -82,6 +82,7 @@
     {"name":"obj_camera","order":4,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_rat","order":3,"path":"sprites/spr_rat/spr_rat.yy",},
     {"name":"obj_gameManager","order":3,"path":"objects/obj_gameManager/obj_gameManager.yy",},
+    {"name":"f_goblinText","order":2,"path":"fonts/f_goblinText/f_goblinText.yy",},
     {"name":"Level_4","order":10,"path":"rooms/Level_4/Level_4.yy",},
     {"name":"spr_slimeYellow","order":7,"path":"sprites/spr_slimeYellow/spr_slimeYellow.yy",},
     {"name":"spr_goblin2","order":10,"path":"sprites/spr_goblin2/spr_goblin2.yy",},

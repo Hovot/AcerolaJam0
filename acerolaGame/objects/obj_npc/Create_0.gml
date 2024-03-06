@@ -2,12 +2,14 @@
 event_inherited()
 outline = false
 
-
-desc = "hi there"
+//$ - clear everything
+//@3 - delete previous char
+desc = "hi there\nJim! Go explore the dungeon!$Have Full!@@@n!"
 
 watchPlayer = true
 
+index = 1
 
-say = function(msg){
-	show_debug_message(msg)
-}
+stringToDraw = ""
+
+typingSpeed = 5

@@ -1,4 +1,6 @@
 which mob pathfinding?
+mobs cant go through either doors
+
 bullets go through doors
 
 Not really a bug, but mob clumping
