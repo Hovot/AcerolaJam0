@@ -4,19 +4,26 @@ var goalX = lengthdir_x(spd, dir)
 var goalY = lengthdir_y(spd, dir)
 
 if(target != noone){
-	var tgtDir = point_direction(x, y, target.x*target.image_xscale, target.y*target.image_yscale - target.sprite_height/2)
+	var tgtDir = point_direction(x, y, target.x, target.y - target.sprite_height/2)
 	goalX = lengthdir_x(agroSpd, tgtDir)
 	goalY = lengthdir_y(agroSpd, tgtDir)
+	
+	if(point_in_circle(x, y, target.x, target.y - target.sprite_height/2, target.hitRadius)){
+		target.takeDmg(bulletDmg)
+		instance_destroy()
+	}
 }
 	
 var hit = move_and_collide(goalX, goalY, [ceilingTiles, obj_enemy])
+
+
 
 	
 for(var i = 0; i < array_length(hit); i++){
 	if(!instance_exists(hit[i])){
 		instance_destroy()
 		
-	} else if(hit[i].object_index == obj_enemy){
+	} else if(hit[i].object_index == obj_enemy){ //backup hit detection
 		hit[i].takeDmg(bulletDmg)
 		instance_destroy()
 	}		
@@ -32,8 +39,6 @@ with(obj_enemy){
 		other.target = self
 	}
 }
-
-
 
 
 

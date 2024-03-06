@@ -1,7 +1,6 @@
 /// @description despawn body 
 
-
-instance_destroy()
+fadeOut = true
 
 
 

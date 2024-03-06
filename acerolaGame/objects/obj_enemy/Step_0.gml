@@ -1,8 +1,13 @@
 /// @description
 
 if(state == states.death){
-	if(image_index <= 1){
-		color = c_white
+	if(fadeOut){ // a slow death
+		image_alpha -= 0.1
+		if(image_alpha <= 0){instance_destroy()}
+	}
+	
+	if(image_index <= deathFrame - 1){
+		image_blend = c_white
 		image_speed = 0
 		image_index = 49
 		alarm_set(6, deSpawnTime)
@@ -12,8 +17,15 @@ if(state == states.death){
 
 
 
+if(image_index >= 37 && image_index <= 39){ //the frame where the hit actually hits player
+	var atkCooldown = 1 //seconds
+	
+	obj_player.takeDmg(attackDmg)
+	alarm_set(1, atkCooldown * 60)
+}
+
 //scan for player
-if(point_in_circle(obj_player.x, obj_player.y, x, y, attackRadius)){
+if(point_in_circle(obj_player.x, obj_player.y, x, y - sprite_height/2, attackRadius)){
 	state = states.attack
 } else if(state == states.attack){ //out of range, leave attack state
 	state = states.idle
@@ -39,7 +51,7 @@ if(state == states.idle && alarm_get(0) <= 0){
 		var hit = move_and_collide(goalX, goalY, [ceilingTiles, wallTiles])
 		
 		if(goalX != 0){ //face dir moving
-			image_xscale = -sign(goalX)
+			xDir = -sign(goalX)
 		}
 		
 		if(array_length(hit) > 0){
@@ -59,3 +71,15 @@ if(state == states.idle && alarm_get(0) <= 0){
 if(image_index < currentAnimation or image_index > currentAnimation + numberOfFrames - 1){
 	image_index = currentAnimation
 }
+
+
+if(hp <= 0){
+	if(state != states.death){
+		state = states.death
+	}
+}
+	/*if(currentAnimation != deathFrame){
+		currentAnimation = deathFrame
+		image_index = currentAnimation
+	}
+} //prevents zombie mob

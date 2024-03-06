@@ -1,8 +1,8 @@
 /// @description dmg flash
-if(color = c_white){
-	color = c_red
+if(image_blend = c_white){
+	image_blend = c_red
 } else {
-	color = c_white
+	image_blend = c_white
 }
 
 alarm_set(3, 5)
