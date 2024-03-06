@@ -3,6 +3,7 @@ SHOP
 POWERS
 ADS
 DIF ENEMIES
+
 remove gameManager / player from each room, its persistant
 
 
