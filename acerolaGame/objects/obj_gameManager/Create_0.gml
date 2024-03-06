@@ -22,5 +22,6 @@ window_set_cursor(cr_none)
 gameFrames = 60
 totalTime = 0
 levelTimes = []
-showTime = true
+showTime = false
 currentLevel = 0
+showTimeInLevels = true

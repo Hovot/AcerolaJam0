@@ -1,6 +1,6 @@
 /// @description 
 
-if(showTime){
+if(showTimeInLevels && showTime){
 	var hours = string(floor(totalTime/(gameFrames*60*60)))
 	var mins = string(floor(totalTime/(gameFrames*60)))
 	var secs = string(floor(totalTime/gameFrames))

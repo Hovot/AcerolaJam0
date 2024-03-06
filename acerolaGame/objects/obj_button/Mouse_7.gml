@@ -1,5 +1,7 @@
 /// @description 
 
-show_debug_message("CLICKED")
-
+onClick()
+image_blend = c_white
+image_xscale += shrinkVal
+image_yscale += shrinkVal
 
