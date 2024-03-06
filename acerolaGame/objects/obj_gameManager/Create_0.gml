@@ -24,3 +24,10 @@ totalTime = 0
 levelTimes = []
 showTime = true
 showTimeInLevels = true
+
+
+unPause = function(){
+	global.paused = false
+	instance_destroy(obj_pauseMenu)
+	instance_activate_all()
+}

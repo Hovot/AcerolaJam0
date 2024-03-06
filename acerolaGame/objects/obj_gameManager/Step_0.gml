@@ -4,7 +4,9 @@ if(keyboard_check_pressed(vk_escape)){
 	global.paused = !global.paused
 	if(global.paused){
 		instance_deactivate_all(true)
+		instance_create_depth(0, 0, -6000, obj_pauseMenu, {level : array_length(levelTimes)})
 	} else {
+		instance_destroy(obj_pauseMenu)
 		instance_activate_all()
 	}
 }

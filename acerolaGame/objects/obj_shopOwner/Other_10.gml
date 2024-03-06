@@ -13,7 +13,7 @@ if(obj_player.x > x){
 	xScale = -abs(xScale)
 }
 
-instance_create_depth(0, 0, -1000, obj_shop)
+instance_create_depth(0, 0, -5000, obj_shop)
 shopOpen = true
 
 
