@@ -17,3 +17,4 @@ if(mouse_check_button_released(mb_left)){
 	cursor_sprite = spr_wandCursor
 }
 
+if(!global.paused){totalTime++}

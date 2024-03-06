@@ -25,6 +25,8 @@ hp = 100
 
 color = c_white
 
+immunityFrames = 30
+
 //take dmg
 takeDmg = function(val){
 	if(dead){return}
@@ -35,7 +37,7 @@ takeDmg = function(val){
 			dead = true
 			alarm_set(3, 25) //death animation
 		}
-			alarm_set(0, 30)
+			alarm_set(0, immunityFrames)
 			alarm_set(1, 5)
 	}
 }

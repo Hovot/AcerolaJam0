@@ -17,3 +17,10 @@ pauseAllButMe = function(){
 cursor_sprite = spr_wandCursor
 
 window_set_cursor(cr_none)
+
+
+gameFrames = 60
+totalTime = 0
+levelTimes = []
+showTime = true
+currentLevel = 0
