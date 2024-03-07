@@ -72,15 +72,3 @@ if(state == states.idle && alarm_get(0) <= 0){
 if(image_index < currentAnimation or image_index > currentAnimation + numberOfFrames - 1){
 	image_index = currentAnimation
 }
-
-
-if(hp <= 0){
-	if(state != states.death){
-		state = states.death
-	}
-}
-	/*if(currentAnimation != deathFrame){
-		currentAnimation = deathFrame
-		image_index = currentAnimation
-	}
-} //prevents zombie mob
