@@ -1,5 +1,5 @@
-/// @description raid
+/// @description shave
 alarm_set(2, -1)
-raidSeq = layer_sequence_create("Instances", obj_player.x,  obj_player.y, sq_raidPower)
-alarm_set(3, 75)
+activeSeqs[2] = layer_sequence_create("Instances", obj_player.x,  irandom_range(obj_player.y - 100, obj_player.y + 100), sq_shavePower)
+destroyTimes[2] = 4*60 //seq length
 

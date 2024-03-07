@@ -1,37 +1,52 @@
 /// @description 
+for(var i = 0; i < array_length(destroyTimes); i++){
+	if(destroyTimes[i] < 0) {continue}
+	if(destroyTimes[i] == 0){destroySeq(i); destroyTimes[i] = -1; continue}
+	if(destroyTimes[i] > 0){destroyTimes[i]--}
+}
 
 //burger
-if(burgerPower && alarm_get(1) <= 0 && alarm_get(0) <= 0 ){
+if(burgerPower && destroyTimes[0] == -1 && alarm_get(0) <= 0 ){
 	alarm_set(0, burgerRate)
 
 }
-if(burgerPower && layer_sequence_exists("Instances", burgerSeq)){ //keep centered on player
-	layer_sequence_x(burgerSeq, obj_player.x)
-	layer_sequence_y(burgerSeq, obj_player.y)
+if(burgerPower && layer_sequence_exists("Instances", activeSeqs[0])){ //keep centered on player
+	layer_sequence_x(activeSeqs[0], obj_player.x)
+	layer_sequence_y(activeSeqs[0], obj_player.y)
 }
 
 //raid
-if(raidPower && alarm_get(3) <= 0 && alarm_get(2) <= 0 ){
-	alarm_set(2, raidRate)
+if(raidPower && destroyTimes[1] == -1 && alarm_get(1) <= 0 ){
+	alarm_set(1, raidRate)
 
 }
-if(raidPower && layer_sequence_exists("Instances", raidSeq)){
-	layer_sequence_x(raidSeq, obj_player.x)
-	layer_sequence_y(raidSeq, obj_player.y)
+if(raidPower && layer_sequence_exists("Instances", activeSeqs[1])){
+	layer_sequence_x(activeSeqs[1], obj_player.x)
+	layer_sequence_y(activeSeqs[1], obj_player.y)
 }
 
 //shave
-if(shavePower && alarm_get(5) <= 0 && alarm_get(4) <= 0 ){
-	alarm_set(4, raidRate)
+if(shavePower && destroyTimes[2] == -1 && alarm_get(2) <= 0 ){
+	alarm_set(2, shaveRate)
 }
 
 //phone
-if(phonePower && alarm_get(7) <= 0 && alarm_get(6) <= 0 ){
-	alarm_set(6, phoneRate)
+if(phonePower && destroyTimes[3] == -1 && alarm_get(3) <= 0 ){
+	alarm_set(3, phoneRate)
 
 }
-if(phonePower && layer_sequence_exists("Instances", phoneSeq)){
-	layer_sequence_x(phoneSeq, obj_player.x)
-	layer_sequence_y(phoneSeq, obj_player.y)
-	layer_sequence_xscale(phoneSeq, obj_player.image_xscale)	
+if(phonePower && layer_sequence_exists("Instances", activeSeqs[3])){
+	layer_sequence_x(activeSeqs[3], obj_player.x)
+	layer_sequence_y(activeSeqs[3], obj_player.y)
+	layer_sequence_xscale(activeSeqs[3], obj_player.image_xscale)	
+}
+
+//dating
+if(datingPower && destroyTimes[4] == -1 && alarm_get(4) <= 0 ){
+	alarm_set(4, datingRate)
+
+}
+if(datingPower && layer_sequence_exists("Instances", activeSeqs[4])){
+	layer_sequence_x(activeSeqs[4], obj_player.x)
+	layer_sequence_y(activeSeqs[4], obj_player.y)
 }
