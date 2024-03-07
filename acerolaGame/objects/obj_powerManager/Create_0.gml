@@ -1,7 +1,7 @@
 /// @description 
 
 //common 66% 18/27
-burgerPower = false
+burgerPower = true
 burgerSprite = spr_burgerPower
 burgerRate = 60
 burgerSeq = sq_burgerPower
@@ -11,10 +11,10 @@ raidSprite = spr_raidPower
 raidRate = 120
 raidSeq = sq_raidPower
 
-shavePower = false
-shaveSprite = spr_burgerPower
-shaveRate = 60
-shaveSeq = pointer_null
+shavePower = true
+shaveSprite = spr_shavePower
+shaveRate = 45
+shaveSeq = sq_shavePower
 
 phonePower = false
 phoneSprite = spr_burgerPower
