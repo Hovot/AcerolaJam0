@@ -13,8 +13,6 @@ dir = point_direction(x, y, mouse_x, mouse_y)
 seekRadius = 15
 target = noone
 
-bulletDmg = 5
-
 ceilingTiles = layer_tilemap_get_id("Blackness")
 
 if(tilemap_get_at_pixel(ceilingTiles, x, y) != 0) {instance_destroy()} //if spawned in wall

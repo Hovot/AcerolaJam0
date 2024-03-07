@@ -1,8 +1,9 @@
 /// @description 
 
-image_xscale -= shrinkVal
-image_yscale -= shrinkVal
-
+if(enabled){
+	image_xscale -= shrinkVal
+	image_yscale -= shrinkVal
+}
 
 
 

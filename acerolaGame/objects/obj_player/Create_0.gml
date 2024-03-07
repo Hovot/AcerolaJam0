@@ -17,21 +17,34 @@ currentAnimation = idleFrame
 dead = false
 powerUp = false
 
-mvSpd = 2 //1
 
+mvSpd = 1
+sptSpd = 2.25
+spd = mvSpd
 
 money = 0
 hp = 100
+maxHP = 100
+hpPercent = 100
 
 color = c_white
 
 immunityFrames = 30
+
+bulletDmg = 5
+
+lootMult = 1
+
+earnLoot = function(val){
+	money += val*lootMult
+}
 
 //take dmg
 takeDmg = function(val){
 	if(dead){return}
 	if(alarm_get(0) <= 0){
 		hp -= val
+		hpPercent = (hp / maxHP) * 100
 		color = c_red
 		if(hp <= 0){
 			dead = true

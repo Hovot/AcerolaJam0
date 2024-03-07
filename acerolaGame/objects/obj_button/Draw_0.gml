@@ -1,4 +1,7 @@
 /// @description 
+if(!enabled){
+	image_blend = c_gray
+}
 
 if(outline && useShader){
 	shader_set(sh_outline)

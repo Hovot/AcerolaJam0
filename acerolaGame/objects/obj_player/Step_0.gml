@@ -17,7 +17,12 @@ if(powerUp && image_index >= gestureFrame + numberOfFrames - 1){ //powerup anima
 
 if(powerUp){return} //playing powerup animation
 
-
+//sprint
+if(keyboard_check(vk_shift)){
+	spd = sptSpd
+} else {
+	spd = mvSpd
+}
 
 //get input
 var moveX = keyboard_check(ord("D")) - keyboard_check(ord("A"))
@@ -25,11 +30,11 @@ var moveY = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 
 //fix fast diagonal
 if(moveX == 0 or moveY == 0){
-	moveX *= mvSpd
-	moveY *= mvSpd
+	moveX *= spd
+	moveY *= spd
 } else {
-	moveX *= mvSpd * sin(degtorad(45))
-	moveY *= mvSpd * sin(degtorad(45))
+	moveX *= spd * sin(degtorad(45))
+	moveY *= spd * sin(degtorad(45))
 }
 
 if(moveX != 0){
@@ -59,13 +64,13 @@ if(keyboard_check(vk_space)){
 //spawn bullet
 if(floor(image_index) == 36){
 	if(alarm_get(2) <= 0){ //just 1 per cast
-		instance_create_depth(x + (15*sign(image_xscale)), y - (16*sign(image_yscale)), depth, obj_bullet)
+		instance_create_depth(x + (15*sign(image_xscale)), y - (16*sign(image_yscale)), depth, obj_bullet, {bulletDmg : other.bulletDmg})
 		alarm_set(2, 10)
 	}
 }
 
 //actually move
-move_and_collide(moveX, moveY, collisionList, 4, 0, 0, mvSpd, mvSpd)
+move_and_collide(moveX, moveY, collisionList, 4, 0, 0, spd, spd)
 
 //animation - loop current
 if(image_index < currentAnimation or image_index > currentAnimation + numberOfFrames - 1){

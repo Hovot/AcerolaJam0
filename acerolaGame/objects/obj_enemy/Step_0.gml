@@ -10,6 +10,7 @@ if(state == states.death){
 		image_blend = c_white
 		image_speed = 0
 		image_index = 49
+		obj_player.earnLoot(lootVal)
 		alarm_set(6, deSpawnTime)
 	}
 	return

@@ -1,0 +1,14 @@
+health - 25
+speed - 50
+immunity frames - 30
+bullet dmg - 50
+money multiplier - 60 
+
+
+enemy = 1
+loot = 5
+boss = 50
+lvlComplete = 25
+
+150 guar
+215

@@ -38,8 +38,6 @@ meleeStartRange = 15 * image_xscale
 meleeFinishRange = 25 * image_xscale
 hp = 25
 maxHP = 25
-
-
 hpPercent = 100
 
 //take dmg

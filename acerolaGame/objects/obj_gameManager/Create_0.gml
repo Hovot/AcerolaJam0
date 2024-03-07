@@ -31,3 +31,5 @@ unPause = function(){
 	instance_destroy(obj_pauseMenu)
 	instance_activate_all()
 }
+
+purchased = []

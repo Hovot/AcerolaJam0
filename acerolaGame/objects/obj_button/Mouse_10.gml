@@ -1,8 +1,8 @@
 /// @description 
-
-outline = true
-image_blend = c_ltgray
-
+if(enabled){
+	outline = true
+	image_blend = c_ltgray
+}
 
 
 

@@ -16,6 +16,8 @@ baseXScale = image_xscale
 
 image_yscale = 1 //hopefully I wont want to change this later haha
 
+enabled = true
+
 onClick = function(){
 	show_debug_message("implement me")
 }
