@@ -1,15 +1,15 @@
 /// @description 
 
 //common 66% 18/27
-burgerPower = true
+burgerPower = false
 burgerSprite = spr_burgerPower
 burgerRate = 60
 burgerSeq = sq_burgerPower
 
 raidPower = true
 raidSprite = spr_raidPower
-raidRate = 60
-raidSeq = pointer_null
+raidRate = 120
+raidSeq = sq_raidPower
 
 shavePower = false
 shaveSprite = spr_burgerPower

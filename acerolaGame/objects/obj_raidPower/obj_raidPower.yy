@@ -1,10 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_burgerPower",
+  "name": "obj_raidPower",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_power","path":"objects/obj_power/obj_power.yy",},"propertyId":{"name":"dmg","path":"objects/obj_power/obj_power.yy",},"value":"10",},
+  ],
   "parent": {
     "name": "powers",
     "path": "folders/Objects/powers.yy",
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_burgerPower",
-    "path": "sprites/spr_burgerPower/spr_burgerPower.yy",
+    "name": "spr_raidPower",
+    "path": "sprites/spr_raidPower/spr_raidPower.yy",
   },
   "spriteMaskId": null,
   "visible": true,
