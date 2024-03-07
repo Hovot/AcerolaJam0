@@ -49,7 +49,6 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"sq_wandPower","path":"sequences/sq_wandPower/sq_wandPower.yy",},},
     {"id":{"name":"obj_powerManager","path":"objects/obj_powerManager/obj_powerManager.yy",},},
     {"id":{"name":"obj_datingPower","path":"objects/obj_datingPower/obj_datingPower.yy",},},
     {"id":{"name":"spr_wandPower","path":"sprites/spr_wandPower/spr_wandPower.yy",},},

@@ -40,6 +40,4 @@ with(obj_enemy){
 	}
 }
 
-show_debug_message(bulletDmg)
-
 

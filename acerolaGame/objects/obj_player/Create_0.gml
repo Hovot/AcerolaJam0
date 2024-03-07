@@ -35,6 +35,8 @@ bulletDmg = 5
 
 lootMult = 1
 
+bulletNum = 1
+
 earnLoot = function(val){
 	money += val*lootMult
 }

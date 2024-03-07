@@ -64,7 +64,10 @@ if(keyboard_check(vk_space)){
 //spawn bullet
 if(floor(image_index) == 36){
 	if(alarm_get(2) <= 0){ //just 1 per cast
-		instance_create_depth(x + (15*sign(image_xscale)), y - (16*sign(image_yscale)), depth, obj_bullet, {bulletDmg : other.bulletDmg})
+		repeat(bulletNum){
+			var dist = random_range(-10, 10)
+			instance_create_depth(x + (15*sign(image_xscale)), y - (16*sign(image_yscale)) + dist*(bulletNum-1), depth, obj_bullet, {bulletDmg : other.bulletDmg})
+		}
 		alarm_set(2, 10)
 	}
 }

@@ -52,9 +52,8 @@ if(datingPower && layer_sequence_exists("Instances", activeSeqs[4])){
 }
 
 //wand
-if(wandPower && destroyTimes[5] == -1 && alarm_get(5) <= 0 ){
-	alarm_set(5, wandPower)
-
+if(wandPower){
+	obj_player.bulletNum = 3
 }
 
 

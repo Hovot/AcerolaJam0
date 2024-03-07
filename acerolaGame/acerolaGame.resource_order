@@ -32,7 +32,6 @@
     {"name":"Powers","order":8,"path":"folders/Sequences/Powers.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"sq_wandPower","order":5,"path":"sequences/sq_wandPower/sq_wandPower.yy",},
     {"name":"obj_powerManager","order":5,"path":"objects/obj_powerManager/obj_powerManager.yy",},
     {"name":"obj_datingPower","order":6,"path":"objects/obj_datingPower/obj_datingPower.yy",},
     {"name":"spr_wandPower","order":6,"path":"sprites/spr_wandPower/spr_wandPower.yy",},

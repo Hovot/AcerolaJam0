@@ -43,26 +43,24 @@ hpPercent = 100
 //take dmg
 takeDmg = function(val){
 	if(state == states.death){return}
-	
-	if(alarm_get(2) <= 0){
-		hp -= val
-		hpPercent = (hp / maxHP) * 100
-		if(hp <= 0){
-			state = states.death
-			currentAnimation = deathFrame
-			image_index = currentAnimation
-		} else { //flash dmg
-			image_blend = c_red
-			alarm_set(2, 30)
-			alarm_set(3, 5)
+
+	hp -= val
+	hpPercent = (hp / maxHP) * 100
+	if(hp <= 0){
+		state = states.death
+		currentAnimation = deathFrame
+		image_index = currentAnimation
+	} else { //flash dmg
+		image_blend = c_red
+		alarm_set(2, 30)
+		alarm_set(3, 5)
 			
-			//run towards hit for 2 seconds
-			state = states.wander
-			var dir = point_direction(x, y, obj_player.x, obj_player.y)
-			goalX = lengthdir_x(spd, dir)
-			goalY = lengthdir_y(spd, dir)
-			alarm_set(5, 120)
+		//run towards hit for 2 seconds
+		state = states.wander
+		var dir = point_direction(x, y, obj_player.x, obj_player.y)
+		goalX = lengthdir_x(spd, dir)
+		goalY = lengthdir_y(spd, dir)
+		alarm_set(5, 120)
 			
-		}
 	}
 }
