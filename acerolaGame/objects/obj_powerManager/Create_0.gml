@@ -1,43 +1,67 @@
 /// @description 
 
 //common 66% 18/27
-burgerPower = false
+burgerPower = true
 burgerSprite = spr_burgerPower
+burgerRate = 60
+burgerSeq = sq_burgerPower
 
 raidPower = true
 raidSprite = spr_raidPower
+raidRate = 60
+raidSeq = pointer_null
 
 shavePower = false
 shaveSprite = spr_burgerPower
+shaveRate = 60
+shaveSeq = pointer_null
 
 phonePower = false
 phoneSprite = spr_burgerPower
+phoneRate = 60
+phoneSeq = pointer_null
 
 datingPower = false
 datingSprite = spr_burgerPower
+datingRate = 60
+datingSeq = pointer_null
 
 wandLargePower = false
 wandLargeSprite = spr_burgerPower
+wandRate = 60
+wandSeq = pointer_null
 
 //rare 22% - 6/27
 runnerPower = false
 runnerSprite = spr_burgerPower
+runnerRate = 60
+runnerSeq = pointer_null
 
 clashPower = false
 clashSprite = spr_burgerPower
+clashRate = 60
+clashSeq = pointer_null
 
 skinPower = false
 skinSprite = spr_burgerPower
+skinRate = 60
+skinSeq = pointer_null
 
 //ultra rare 11% - 3/27
 bugPower = false
 bugSprite = spr_burgerPower
+bugRate = 60
+bugSeq = pointer_null
 
 crashPower = false
 crashSprite = spr_burgerPower
+crashRate = 60
+crashSeq = pointer_null
 
 BSODPower = false
 BSODSprite = spr_burgerPower
+BSODRate = 60
+BSODSeq = pointer_null
 
 gainPower = function(numGained){
 	switch(numGained){

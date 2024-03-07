@@ -2,6 +2,8 @@
 
 // Inherit the parent event
 event_inherited();
+desc = ""
+buttonText = ""
 
 closeSpeed = 2 //multiplier
 

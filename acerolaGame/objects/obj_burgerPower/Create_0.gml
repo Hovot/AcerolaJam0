@@ -1,0 +1,5 @@
+/// @description 
+burgerDmg = 5
+
+
+

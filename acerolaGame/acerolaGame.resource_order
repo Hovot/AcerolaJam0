@@ -29,6 +29,7 @@
     {"name":"shop","order":8,"path":"folders/Sprites/shop.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Powers","order":8,"path":"folders/Sequences/Powers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_powerManager","order":5,"path":"objects/obj_powerManager/obj_powerManager.yy",},

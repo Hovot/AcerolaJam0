@@ -1,6 +1,6 @@
 /// @description 
 
-event_inherited();
+outline = false
 image_speed = 1
 
 
