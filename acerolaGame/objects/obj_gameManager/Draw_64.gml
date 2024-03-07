@@ -3,9 +3,9 @@
 if(showTimeInLevels && showTime && room != EndOfGame){
 	var time = totalTime
 	
-	var hours = string(floor(time/(gameFrames*60*60)))
-	var mins = string(floor(time/(gameFrames*60)))
-	var secs = string(floor(time/gameFrames))
+	var hours = string(floor(time / (gameFrames*60*60)))
+	var mins = string((floor(time / (gameFrames*60))) % 60)
+	var secs = string((floor(time / gameFrames)) % 60)
 	
 	if(string_length(hours) < 2){hours = "0" + hours}
 	if(string_length(mins) < 2){mins = "0" + mins}

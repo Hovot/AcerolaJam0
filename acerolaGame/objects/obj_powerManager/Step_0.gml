@@ -50,3 +50,14 @@ if(datingPower && layer_sequence_exists("Instances", activeSeqs[4])){
 	layer_sequence_x(activeSeqs[4], obj_player.x)
 	layer_sequence_y(activeSeqs[4], obj_player.y)
 }
+
+//wand
+if(wandPower && destroyTimes[5] == -1 && alarm_get(5) <= 0 ){
+	alarm_set(5, wandPower)
+
+}
+
+
+
+
+

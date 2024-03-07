@@ -1,7 +1,7 @@
 /// @description 
 
 //draw nothing until player has 1 power
-if not (burgerPower || raidPower || shavePower || phonePower || datingPower || wandLargePower || runnerPower || clashPower || skinPower || bugPower || crashPower || BSODPower){return}
+if not (burgerPower || raidPower || shavePower || phonePower || datingPower || wandPower || runnerPower || clashPower || skinPower || bugPower || crashPower || BSODPower){return}
 
 var leftX = 0
 var rightX = 100
@@ -51,9 +51,9 @@ if(datingPower){
 	draw_rectangle_color(leftX, upY + spacing*4, rightX - teaseSize, lowerY + spacing*4, mainColor, commonColor, mainColor, mainColor, false) //what a tease, more powers await
 }
 
-if(wandLargePower){
+if(wandPower){
 	draw_rectangle_color(leftX, upY + spacing*5, rightX, lowerY + spacing*5, mainColor, commonColor, mainColor, mainColor, false) //what a tease, more powers await
-	draw_sprite_ext(wandLargeSprite, 0, 50, upY + spacing*5+ midY, 4, 4, 0, c_white, 1)
+	draw_sprite_ext(wandSprite, 0, 50, upY + spacing*5+ midY, 4, 4, 0, c_white, 1)
 } else {
 	draw_rectangle_color(leftX, upY + spacing*5, rightX - teaseSize, lowerY + spacing*5, mainColor, commonColor, mainColor, mainColor, false) //what a tease, more powers await
 }

@@ -1,28 +1,28 @@
 /// @description 
 
 //common 66% 18/27
-burgerPower = true
+burgerPower = false
 burgerSprite = spr_burgerPower
 burgerRate = 60
 
-raidPower = true
+raidPower = false
 raidSprite = spr_raidPower
 raidRate = 120
 
-shavePower = true
+shavePower = false
 shaveSprite = spr_shavePower
 shaveRate = 45
 
-phonePower = true
+phonePower = false
 phoneSprite = spr_phonePower
 phoneRate = 3*60
 
-datingPower = true
+datingPower = false
 datingSprite = spr_datingPower
-datingRate = 30
+datingRate = 30*60
 
-wandLargePower = false
-wandLargeSprite = spr_burgerPower
+wandPower = false
+wandSprite = spr_wandPower
 wandRate = 60
 
 //rare 22% - 6/27
@@ -58,7 +58,7 @@ gainPower = function(numGained){
 		case 2: shavePower = true break
 		case 3: phonePower = true break
 		case 4: datingPower = true break
-		case 5: wandLargePower = true break
+		case 5: wandPower = true break
 		case 6: runnerPower = true break
 		case 7: clashPower = true break
 		case 8: skinPower = true break

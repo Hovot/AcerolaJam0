@@ -55,6 +55,12 @@ takeDmg = function(val){
 	}
 }
 
+heal = function(val){
+	if(dead){return}
+	if(hp + val > maxHP){ val = (maxHP - hp)}
+	hp += val
+	hpPercent = (hp / maxHP) * 100
+}
 
 powerManager = instance_create_depth(0, 0, depth, obj_powerManager)
 powerGained = 0
