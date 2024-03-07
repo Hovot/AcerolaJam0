@@ -79,6 +79,7 @@
     {"id":{"name":"spr_ceiling","path":"sprites/spr_ceiling/spr_ceiling.yy",},},
     {"id":{"name":"obj_shopOwner","path":"objects/obj_shopOwner/obj_shopOwner.yy",},},
     {"id":{"name":"spr_doorsEW","path":"sprites/spr_doorsEW/spr_doorsEW.yy",},},
+    {"id":{"name":"spr_runnerAd","path":"sprites/spr_runnerAd/spr_runnerAd.yy",},},
     {"id":{"name":"f_npcText","path":"fonts/f_npcText/f_npcText.yy",},},
     {"id":{"name":"spr_shadows","path":"sprites/spr_shadows/spr_shadows.yy",},},
     {"id":{"name":"spr_all","path":"sprites/spr_all/spr_all.yy",},},

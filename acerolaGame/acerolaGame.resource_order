@@ -58,6 +58,7 @@
     {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
     {"name":"obj_shopOwner","order":1,"path":"objects/obj_shopOwner/obj_shopOwner.yy",},
     {"name":"spr_doorsEW","order":4,"path":"sprites/spr_doorsEW/spr_doorsEW.yy",},
+    {"name":"spr_runnerAd","order":9,"path":"sprites/spr_runnerAd/spr_runnerAd.yy",},
     {"name":"f_npcText","order":1,"path":"fonts/f_npcText/f_npcText.yy",},
     {"name":"spr_shadows","order":26,"path":"sprites/spr_shadows/spr_shadows.yy",},
     {"name":"spr_all","order":2,"path":"sprites/spr_all/spr_all.yy",},
