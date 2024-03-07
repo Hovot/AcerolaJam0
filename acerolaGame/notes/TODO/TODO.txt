@@ -1,8 +1,8 @@
 FINISH:
-SHOP
-POWERS
-ADS
-DIF ENEMIES
+POWERS - MORE
+ADS - MORE
+
+ad enemy gesture to wander
 
 remove gameManager / player from each room, its persistant
 
@@ -16,9 +16,7 @@ Multiple levels
 
 
 NICE TO HAVES:
-Shop
 Bosses (ad blocker)
-Inventory
 Menu
 Sound effects
 Music
