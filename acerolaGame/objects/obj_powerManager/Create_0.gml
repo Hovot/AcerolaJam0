@@ -1,25 +1,25 @@
 /// @description 
 
 //common 66% 18/27
-burgerPower = true
+burgerPower = false
 burgerSprite = spr_burgerPower
 burgerRate = 60
-burgerSeq = sq_burgerPower
+burgerSeq = 0
 
-raidPower = true
+raidPower = false
 raidSprite = spr_raidPower
 raidRate = 120
-raidSeq = sq_raidPower
+raidSeq = 0
 
-shavePower = true
+shavePower = false
 shaveSprite = spr_shavePower
 shaveRate = 45
-shaveSeq = sq_shavePower
+shaveSeq = 0
 
-phonePower = false
-phoneSprite = spr_burgerPower
-phoneRate = 60
-phoneSeq = pointer_null
+phonePower = true
+phoneSprite = spr_phonePower
+phoneRate = 3*60
+phoneSeq = 0
 
 datingPower = false
 datingSprite = spr_burgerPower

@@ -24,3 +24,14 @@ if(raidPower && layer_sequence_exists("Instances", raidSeq)){
 if(shavePower && alarm_get(5) <= 0 && alarm_get(4) <= 0 ){
 	alarm_set(4, raidRate)
 }
+
+//phone
+if(phonePower && alarm_get(7) <= 0 && alarm_get(6) <= 0 ){
+	alarm_set(6, phoneRate)
+
+}
+if(phonePower && layer_sequence_exists("Instances", phoneSeq)){
+	layer_sequence_x(phoneSeq, obj_player.x)
+	layer_sequence_y(phoneSeq, obj_player.y)
+	layer_sequence_xscale(phoneSeq, obj_player.image_xscale)	
+}

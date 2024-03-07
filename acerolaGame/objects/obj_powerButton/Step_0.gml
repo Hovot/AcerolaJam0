@@ -9,6 +9,8 @@ if(deleteWhenDone && layer_sequence_is_finished(seq)){
 		event_user(0)	
 	}
 	
+	obj_gameManager.pauseCamera()
+	
 	with(obj_sucker){
 		instance_destroy()
 	}

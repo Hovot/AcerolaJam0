@@ -3,6 +3,7 @@
 global.paused = false
 
 fakePause = false
+cameraPause = false
 
 pauseAllButMe = function(){
 	fakePause = !fakePause
@@ -12,6 +13,16 @@ pauseAllButMe = function(){
 	} else {
 		instance_activate_all()
 	}
+}
+
+pauseCamera = function(){
+	cameraPause = !cameraPause
+	if(cameraPause){
+		instance_deactivate_object(obj_camera)
+	} else {
+		instance_activate_object(obj_camera)
+	}
+
 }
 
 cursor_sprite = spr_wandCursor
