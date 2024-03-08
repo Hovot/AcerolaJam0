@@ -27,7 +27,7 @@ wandRate = 60
 
 //rare 22% - 6/27
 runnerPower = false
-runnerSprite = spr_burgerPower
+runnerSprite = spr_runnerPower
 runnerRate = 60
 
 clashPower = false

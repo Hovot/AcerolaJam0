@@ -20,7 +20,7 @@ pickPowerAndPlay = function(){
 		case 3: adSeq = sq_adPhone; suckSeq = sq_adPhoneSuck; break
 		case 4: adSeq = sq_adDating; suckSeq = sq_adDatingSuck; break
 		case 5: adSeq = sq_adWand; suckSeq = sq_adWandSuck; break
-		case 6: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
+		case 6: adSeq = sq_adRunner; suckSeq = sq_adRunnerSuck; break
 		case 7: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
 		case 8: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
 		case 9: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
