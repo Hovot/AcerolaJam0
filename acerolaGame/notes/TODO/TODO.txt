@@ -11,7 +11,6 @@ Actual:
 finish ads + powers
 add enemies to rooms
 add barriers to rooms
-vision?
 add more loot
 title
 main menu improvements
@@ -36,7 +35,6 @@ Settings
 Credits
 Nice Itch page
 
-vision bubble
 
 
 
