@@ -1,6 +1,6 @@
 FINISH:
 POWERS - MORE
-ADS - MORE
+
 
 ad enemy gesture to wander
 
@@ -8,38 +8,29 @@ remove gameManager / player from each room, its persistant
 
 
 Actual:
-finish ads + powers
+powers - BSOD, bug, crash, clash, runner, skin
 add enemies to rooms
 add barriers to rooms
 add more loot
 title
 main menu improvements
 sound
+options
+credits
 
 
 
 
 
-ABSOLUTE NEEDS:
-Combat
-Ads
-Multiple levels
 
 
 NICE TO HAVES:
 Bosses (ad blocker)
-Menu
 Sound effects
 Music
 Settings
 Credits
 Nice Itch page
-
-
-
-
-fractal noise is cool - dmg?
-Mask for dark level
 
 
 6 levels - finish game with half powers, replayable hehe
