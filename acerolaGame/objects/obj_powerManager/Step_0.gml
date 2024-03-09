@@ -62,5 +62,24 @@ if(runnerPower && destroyTimes[5] == -1 && alarm_get(5) <= 0 ){
 
 }
 
+//clash
+if(clashPower && destroyTimes[6] == -1 && alarm_get(6) <= 0 ){
+	alarm_set(6, clashRate)
+
+}
+
+//skin
+if(skinPower && destroyTimes[7] == -1 && alarm_get(7) <= 0 ){
+	alarm_set(7, skinRate)
+
+}
+
+//skin
+if(bugPower && destroyTimes[8] == -1 && alarm_get(8) <= 0 ){
+	alarm_set(8, bugRate)
+
+}
+
+
 
 

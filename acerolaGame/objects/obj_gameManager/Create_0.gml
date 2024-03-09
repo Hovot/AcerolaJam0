@@ -15,6 +15,12 @@ pauseAllButMe = function(){
 	}
 }
 
+unpauseAll = function(){
+	fakePause = false
+	instance_activate_all()
+}
+
+
 pauseCamera = function(){
 	cameraPause = !cameraPause
 	if(cameraPause){
@@ -22,6 +28,12 @@ pauseCamera = function(){
 	} else {
 		instance_activate_object(obj_camera)
 	}
+
+}
+
+unpauseCamera = function(){
+	cameraPause = false
+	instance_activate_object(obj_camera)
 
 }
 

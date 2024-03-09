@@ -30,17 +30,17 @@ runnerPower = false
 runnerSprite = spr_runnerPower
 runnerRate = 60
 
-clashPower = false
-clashSprite = spr_burgerPower
+clashPower = true
+clashSprite = spr_clashPower
 clashRate = 60
 
 skinPower = false
-skinSprite = spr_burgerPower
+skinSprite = spr_skinPower
 skinRate = 60
 
 //ultra rare 11% - 3/27
 bugPower = false
-bugSprite = spr_burgerPower
+bugSprite = spr_bugPower
 bugRate = 60
 
 crashPower = false
