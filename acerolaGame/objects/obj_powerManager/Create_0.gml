@@ -30,7 +30,7 @@ runnerPower = false
 runnerSprite = spr_runnerPower
 runnerRate = 60
 
-clashPower = true
+clashPower = false
 clashSprite = spr_clashPower
 clashRate = 60
 
@@ -44,11 +44,11 @@ bugSprite = spr_bugPower
 bugRate = 60
 
 crashPower = false
-crashSprite = spr_burgerPower
+crashSprite = spr_crashPower
 crashRate = 60
 
 BSODPower = false
-BSODSprite = spr_burgerPower
+BSODSprite = spr_BSODPower
 BSODRate = 60
 
 gainPower = function(numGained){

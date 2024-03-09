@@ -74,9 +74,21 @@ if(skinPower && destroyTimes[7] == -1 && alarm_get(7) <= 0 ){
 
 }
 
-//skin
+//bug
 if(bugPower && destroyTimes[8] == -1 && alarm_get(8) <= 0 ){
 	alarm_set(8, bugRate)
+
+}
+
+//crash
+if(crashPower && destroyTimes[9] == -1 && alarm_get(9) <= 0 ){
+	alarm_set(9, crashRate)
+
+}
+
+//BSOD
+if(BSODPower && destroyTimes[10] == -1 && alarm_get(10) <= 0 ){
+	alarm_set(9, BSODRate)
 
 }
 

@@ -11,8 +11,8 @@ powerGained = 0
 //asks power manager for a power to earn, then deceides the correct 2 sequences to play and plays them
 //at the end of all that the power manager adds the power
 pickPowerAndPlay = function(){
-	//powerGained = obj_powerManager.randomPower()
-	powerGained = 9
+	powerGained = obj_powerManager.randomPower()
+	
 	switch(powerGained){
 		case 0: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
 		case 1: adSeq = sq_adRaid; suckSeq = sq_adRaidSuck; break
@@ -24,8 +24,8 @@ pickPowerAndPlay = function(){
 		case 7: adSeq = sq_adClash; suckSeq = sq_adClashSuck; break
 		case 8: adSeq = sq_adSkin; suckSeq = sq_adSkinSuck; break
 		case 9: adSeq = sq_adBug; suckSeq = -1; break
-		case 10: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
-		case 11: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
+		case 10: adSeq = sq_adCrash; suckSeq = sq_adCrashSuck; break
+		case 11: adSeq = sq_adBSOD; suckSeq = sq_adBSODSuck; break
 	}
 	
 	event_user(0)
