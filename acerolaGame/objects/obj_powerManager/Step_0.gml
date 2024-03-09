@@ -88,7 +88,7 @@ if(crashPower && destroyTimes[9] == -1 && alarm_get(9) <= 0 ){
 
 //BSOD
 if(BSODPower && destroyTimes[10] == -1 && alarm_get(10) <= 0 ){
-	alarm_set(9, BSODRate)
+	alarm_set(10, BSODRate)
 
 }
 

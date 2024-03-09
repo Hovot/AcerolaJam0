@@ -12,7 +12,7 @@ powerGained = 0
 //at the end of all that the power manager adds the power
 pickPowerAndPlay = function(){
 	powerGained = obj_powerManager.randomPower()
-	
+
 	switch(powerGained){
 		case 0: adSeq = sq_adBurger; suckSeq = sq_adBurgerSuck; break
 		case 1: adSeq = sq_adRaid; suckSeq = sq_adRaidSuck; break
