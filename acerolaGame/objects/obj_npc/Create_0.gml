@@ -4,7 +4,7 @@ outline = false
 
 //$ - clear everything
 //@3 - delete previous char
-desc = "hi there\nJim! Go explore the dungeon!$Have Full!@@@n!"
+desc = "Hi there!"
 
 watchPlayer = true
 

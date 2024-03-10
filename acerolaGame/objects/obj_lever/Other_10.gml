@@ -4,3 +4,5 @@ for(var i = 0; i < array_length(opensDoor); i++){
 }
 
 image_index++
+
+thisToo()

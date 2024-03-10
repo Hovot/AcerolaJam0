@@ -105,6 +105,7 @@
     {"name":"sq_adSkinSuck","order":9,"path":"sequences/sq_adSkinSuck/sq_adSkinSuck.yy",},
     {"name":"sq_shavePower","order":2,"path":"sequences/sq_shavePower/sq_shavePower.yy",},
     {"name":"obj_sucker","order":3,"path":"objects/obj_sucker/obj_sucker.yy",},
+    {"name":"obj_blood","order":24,"path":"objects/obj_blood/obj_blood.yy",},
     {"name":"spr_fire","order":28,"path":"sprites/spr_fire/spr_fire.yy",},
     {"name":"obj_BSODPower","order":13,"path":"objects/obj_BSODPower/obj_BSODPower.yy",},
     {"name":"spr_books","order":19,"path":"sprites/spr_books/spr_books.yy",},
