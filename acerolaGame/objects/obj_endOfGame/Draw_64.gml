@@ -5,7 +5,7 @@ draw_set_valign(fa_top)
 draw_set_font(f_menuText)
 var msg = "Thank you for playing!"
 var color = c_black
-draw_text_transformed_color(window_get_width()/2, 10, msg, 1, 1, 0, color, color, color, color, 1)
+draw_text_transformed_color(surface_get_width(application_surface)/2, 10, msg, 1, 1, 0, color, color, color, color, 1)
 draw_set_font(-1)
 draw_set_halign(-1)
 draw_set_valign(-1)
@@ -30,7 +30,7 @@ for(var i = 0; i < array_length(obj_gameManager.levelTimes); i++){
 	
 	draw_set_font(f_timerText)
 	draw_set_halign(fa_right)
-	draw_text_transformed_color(window_get_width() - 25, 150 + 50*index, str, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
+	draw_text_transformed_color(surface_get_width(application_surface) - 25, 150 + 50*index, str, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
 	draw_set_font(-1)
 	draw_set_halign(-1)
 	index++
