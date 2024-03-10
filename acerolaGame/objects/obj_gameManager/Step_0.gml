@@ -1,6 +1,6 @@
 /// @description 
 
-if(keyboard_check_pressed(vk_escape) && room != EndOfGame && !instance_exists(obj_shop)){
+if(keyboard_check_pressed(vk_escape) && room != EndOfGame  && room != MainMenu && room != OptionsMenu && !instance_exists(obj_shop)){
 	global.paused = !global.paused
 	if(global.paused){
 		instance_deactivate_all(true)
