@@ -45,14 +45,16 @@ earnLoot = function(val){
 
 //take dmg
 takeDmg = function(val){
-	if(!audio_is_playing(s_playerDmg)){ audio_play_sound(s_playerDmg, 10, false) }
 	if(dead){return}
+	if(!audio_is_playing(s_playerDmg)){ audio_play_sound(s_playerDmg, 10, false) }
 	if(alarm_get(0) <= 0){
 		hp -= val
 		hpPercent = (hp / maxHP) * 100
 		color = c_red
 		if(hp <= 0){
 			dead = true
+			
+			if(!audio_is_playing(s_playerDie)){ audio_play_sound(s_playerDie, 10, false) }
 			alarm_set(3, 25) //death animation
 		}
 			alarm_set(0, immunityFrames)

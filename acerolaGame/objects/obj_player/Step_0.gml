@@ -15,6 +15,7 @@ if(powerUp && image_index >= gestureFrame + numberOfFrames - 1){ //powerup anima
 	powerManager.gainPower(powerGained)
 }
 
+if(floor(image_index) == 15){if(!audio_is_playing(s_powerUnlock)){audio_play_sound(s_powerUnlock, 10, false)}}
 if(powerUp){return} //playing powerup animation
 
 //sprint
@@ -64,6 +65,8 @@ if(keyboard_check(vk_space)){
 
 //spawn bullet
 if(floor(image_index) == 36){
+	if(audio_is_playing(s_bulletShoot)){audio_stop_sound(s_bulletShoot)}
+	audio_play_sound(s_bulletShoot, 10, false)
 	if(alarm_get(2) <= 0){ //just 1 per cast
 		repeat(bulletNum){
 			var dist = random_range(-10, 10)

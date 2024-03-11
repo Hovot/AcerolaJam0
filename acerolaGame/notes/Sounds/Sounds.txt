@@ -1,12 +1,12 @@
-bullet shoot
+bullet shoot - X
 enemy die - X
 loot pickup - X
 player dmg - X
 walking - X 
-teleporting
-enemy attack
-background music
-Game over
+background music - X
+Game over - X
 game win
-power unlocked
-ad count down
+power unlocked - X
+ad count down - X
+ad suck - X
+NPC talking - X

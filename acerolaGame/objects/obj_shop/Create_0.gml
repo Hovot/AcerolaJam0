@@ -19,6 +19,8 @@ with(button0){
 	buttonText = "$25"
 	onClick = function(){
 		if(obj_player.money >= 25){
+			if(audio_is_playing(s_pickupLoot)){ audio_stop_sound(s_pickupLoot) }
+			audio_play_sound(s_pickupLoot, 10, false)
 			obj_player.money -= 25
 			obj_player.maxHP = 125
 			obj_player.hp = 125
@@ -42,6 +44,8 @@ with(button1){
 	buttonText = "$50"
 	onClick = function(){
 		if(obj_player.money >= 50){
+			if(audio_is_playing(s_pickupLoot)){ audio_stop_sound(s_pickupLoot) }
+			audio_play_sound(s_pickupLoot, 10, false)
 			obj_player.money -= 50
 			obj_player.sptSpd = 2.25
 			array_push(obj_gameManager.purchased, 1)
@@ -61,6 +65,8 @@ with(button2){
 	buttonText = "$30"
 	onClick = function(){
 		if(obj_player.money >= 30){
+			if(audio_is_playing(s_pickupLoot)){ audio_stop_sound(s_pickupLoot) }
+			audio_play_sound(s_pickupLoot, 10, false)
 			obj_player.money -= 30
 			obj_player.immunityFrames = 60
 			array_push(obj_gameManager.purchased, 2)
@@ -80,6 +86,8 @@ with(button3){
 	buttonText = "$50"
 	onClick = function(){
 		if(obj_player.money >= 50){
+			if(audio_is_playing(s_pickupLoot)){ audio_stop_sound(s_pickupLoot) }
+			audio_play_sound(s_pickupLoot, 10, false)
 			obj_player.money -= 50
 			obj_player.bulletDmg = 10
 			array_push(obj_gameManager.purchased, 3)
@@ -99,6 +107,8 @@ with(button4){
 	buttonText = "$60"
 	onClick = function(){
 		if(obj_player.money >= 60){
+			if(audio_is_playing(s_pickupLoot)){ audio_stop_sound(s_pickupLoot) }
+			audio_play_sound(s_pickupLoot, 10, false)
 			obj_player.money -= 60
 			obj_player.lootMult = 2
 			array_push(obj_gameManager.purchased, 4)

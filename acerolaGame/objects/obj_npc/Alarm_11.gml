@@ -19,6 +19,11 @@ if(add == "@"){
 
 stringToDraw += add
 index++
+
+if(add != ""){
+	audio_play_sound(s_talking, 10, false, 1, 0, random_range(.5, 1.5))
+}
+
 alarm_set(11, -1)
 
 

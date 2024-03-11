@@ -1,5 +1,5 @@
 /// @description 
-
+global.gameOver = false
 global.paused = false
 
 fakePause = false

@@ -39,6 +39,9 @@ meleeFinishRange = 25 * image_xscale
 hp = 25
 maxHP = 25
 hpPercent = 100
+boss = false
+
+onDeath = function(){}
 
 //take dmg
 takeDmg = function(val){
@@ -47,7 +50,9 @@ takeDmg = function(val){
 	hp -= val
 	hpPercent = (hp / maxHP) * 100
 	if(hp <= 0){
+			onDeath()
 			if(!audio_is_playing(s_enemyDie)){ audio_play_sound(s_enemyDie, 10, false) }
+			if(boss){if(audio_is_playing(s_tense)){ audio_stop_sound(s_tense) }}
 		state = states.death
 		currentAnimation = deathFrame
 		image_index = currentAnimation
