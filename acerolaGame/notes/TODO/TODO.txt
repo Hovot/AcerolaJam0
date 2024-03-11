@@ -12,8 +12,6 @@ powers - BSOD, bug, crash, clash, runner, skin
 add enemies to rooms
 add barriers to rooms
 add more loot
-title
-main menu improvements
 sound
 options
 credits

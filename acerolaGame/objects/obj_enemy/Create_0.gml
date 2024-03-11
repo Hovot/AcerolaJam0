@@ -47,6 +47,7 @@ takeDmg = function(val){
 	hp -= val
 	hpPercent = (hp / maxHP) * 100
 	if(hp <= 0){
+			if(!audio_is_playing(s_enemyDie)){ audio_play_sound(s_enemyDie, 10, false) }
 		state = states.death
 		currentAnimation = deathFrame
 		image_index = currentAnimation

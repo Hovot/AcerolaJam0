@@ -43,6 +43,7 @@ if(moveX != 0){
 
 if(moveX != 0 or moveY != 0){
 	currentAnimation = walkFrame
+	
 } else {
 	currentAnimation = idleFrame
 }
@@ -70,6 +71,10 @@ if(floor(image_index) == 36){
 		}
 		alarm_set(2, 10)
 	}
+}
+
+if(floor(image_index) == 25 || floor(image_index) == 30){
+	if(!audio_is_playing(s_playerWalk)){ audio_play_sound(s_playerWalk, 10, false) }
 }
 
 //actually move

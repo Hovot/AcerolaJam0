@@ -38,11 +38,14 @@ lootMult = 1
 bulletNum = 1
 
 earnLoot = function(val){
+	if(audio_is_playing(s_pickupLoot)){ audio_stop_sound(s_pickupLoot) }
+	audio_play_sound(s_pickupLoot, 10, false)
 	money += val*lootMult
 }
 
 //take dmg
 takeDmg = function(val){
+	if(!audio_is_playing(s_playerDmg)){ audio_play_sound(s_playerDmg, 10, false) }
 	if(dead){return}
 	if(alarm_get(0) <= 0){
 		hp -= val
