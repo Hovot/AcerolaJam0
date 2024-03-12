@@ -4,6 +4,7 @@
   "name": "acerolaGame",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"music","targets":-1,},
   ],
   "configs": {
     "children": [],
@@ -68,10 +69,10 @@
     {"id":{"name":"sq_adRaidSuck","path":"sequences/sq_adRaidSuck/sq_adRaidSuck.yy",},},
     {"id":{"name":"spr_wandCursor","path":"sprites/spr_wandCursor/spr_wandCursor.yy",},},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
-    {"id":{"name":"OptionsMenu","path":"rooms/OptionsMenu/OptionsMenu.yy",},},
     {"id":{"name":"spr_skinAd","path":"sprites/spr_skinAd/spr_skinAd.yy",},},
     {"id":{"name":"spr_phonePower","path":"sprites/spr_phonePower/spr_phonePower.yy",},},
     {"id":{"name":"obj_phonePower","path":"objects/obj_phonePower/obj_phonePower.yy",},},
+    {"id":{"name":"OptionsMenu","path":"rooms/OptionsMenu/OptionsMenu.yy",},},
     {"id":{"name":"sq_adClashSuck","path":"sequences/sq_adClashSuck/sq_adClashSuck.yy",},},
     {"id":{"name":"sq_clashPower","path":"sequences/sq_clashPower/sq_clashPower.yy",},},
     {"id":{"name":"obj_powerButton","path":"objects/obj_powerButton/obj_powerButton.yy",},},
@@ -257,16 +258,16 @@
     {"id":{"name":"Level_0","path":"rooms/Level_0/Level_0.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Level_6","path":"rooms/Level_6/Level_6.yy",},},
     {"roomId":{"name":"Level_0","path":"rooms/Level_0/Level_0.yy",},},
     {"roomId":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},},
-    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Level_4","path":"rooms/Level_4/Level_4.yy",},},
     {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"roomId":{"name":"Level_5","path":"rooms/Level_5/Level_5.yy",},},
     {"roomId":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
-    {"roomId":{"name":"OptionsMenu","path":"rooms/OptionsMenu/OptionsMenu.yy",},},
     {"roomId":{"name":"EndOfGame","path":"rooms/EndOfGame/EndOfGame.yy",},},
+    {"roomId":{"name":"OptionsMenu","path":"rooms/OptionsMenu/OptionsMenu.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

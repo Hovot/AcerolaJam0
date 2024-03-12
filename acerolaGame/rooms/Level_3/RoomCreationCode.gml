@@ -1,1 +1,0 @@
-audio_play_sound(s_tense, 10, true)

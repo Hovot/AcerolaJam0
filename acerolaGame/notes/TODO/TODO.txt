@@ -10,7 +10,6 @@ remove gameManager / player from each room, its persistant
 Actual:
 powers - BSOD, bug, crash, clash, runner, skin
 add enemies to rooms
-add barriers to rooms
 add more loot
 sound
 options
