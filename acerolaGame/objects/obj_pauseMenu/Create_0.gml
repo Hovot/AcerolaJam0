@@ -30,7 +30,9 @@ with(button1){
 	useShader = false
 	buttonText = "Options"
 	onClick = function(){
-		show_debug_message("I menu")
+		room_persistent = true
+		global.returnRoom = room
+		room_goto(OptionsMenu)
 	}
 }
 

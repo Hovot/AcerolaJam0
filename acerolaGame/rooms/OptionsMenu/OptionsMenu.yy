@@ -95,11 +95,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E23CCF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"propertyId":{"name":"audioGroup","path":"objects/obj_slider/obj_slider.yy",},"value":"audiogroup_default",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"propertyId":{"name":"label","path":"objects/obj_slider/obj_slider.yy",},"value":"Sound Effects",},
-          ],"rotation":-0.15576635,"scaleX":2.0,"scaleY":2.0,"x":304.59418,"y":102.54216,},
+          ],"rotation":-0.15576635,"scaleX":2.0,"scaleY":2.0,"x":240.07327,"y":109.54216,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4AA33263","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"propertyId":{"name":"audioGroup","path":"objects/obj_slider/obj_slider.yy",},"value":"music",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"propertyId":{"name":"label","path":"objects/obj_slider/obj_slider.yy",},"value":"Music",},
-          ],"rotation":-0.15576635,"scaleX":2.0,"scaleY":2.0,"x":304.9897,"y":172.0,},
+          ],"rotation":-0.15576635,"scaleX":2.0,"scaleY":2.0,"x":240.98969,"y":158.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_5","depth":300,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},

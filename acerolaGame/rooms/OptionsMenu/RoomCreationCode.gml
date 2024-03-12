@@ -1,4 +1,1 @@
-if !audio_group_is_loaded(music)
-{
-    audio_group_load(music);
-}
+show_debug_message(audio_group_get_gain(music))

@@ -1,6 +1,7 @@
 /// @description 
 global.gameOver = false
 global.paused = false
+global.returnRoom = MainMenu
 
 fakePause = false
 cameraPause = false
