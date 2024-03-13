@@ -10,4 +10,3 @@ collisionList = [ceilingTiles, wallTiles, obj_npc, obj_chest, obj_table]
 with(obj_door){
 	array_push(other.collisionList, id)
 }
-

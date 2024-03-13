@@ -41,3 +41,4 @@ layer_enable_fx("BugEffect", false)
 effectsOff = function(){
 	layer_enable_fx("BugEffect", false)
 }
+
