@@ -1,45 +1,45 @@
 /// @description 
 
 //common 66% 18/27
-burgerPower = false
+burgerPower = true
 burgerSprite = spr_burgerPower
 burgerRate = 60
 
-raidPower = false
+raidPower = true
 raidSprite = spr_raidPower
 raidRate = 120
 
-shavePower = false
+shavePower = true
 shaveSprite = spr_shavePower
 shaveRate = 45
 
-phonePower = false
+phonePower = true
 phoneSprite = spr_phonePower
 phoneRate = 3*60
 
-datingPower = false
+datingPower = true
 datingSprite = spr_datingPower
 datingRate = 30*60
 
-wandPower = false
+wandPower = true
 wandSprite = spr_wandPower
 wandRate = 60
 
 //rare 22% - 6/27
-runnerPower = false
+runnerPower = true
 runnerSprite = spr_runnerPower
 runnerRate = 90
 
-clashPower = false
+clashPower = true
 clashSprite = spr_clashPower
 clashRate = 600
 
-skinPower = false
+skinPower = true
 skinSprite = spr_skinPower
 skinRate = 60*15
 
 //ultra rare 11% - 3/27
-bugPower = false
+bugPower = true
 bugSprite = spr_bugPower
 bugRate = 60*3
 
@@ -47,7 +47,7 @@ crashPower = true
 crashSprite = spr_crashPower
 crashRate = 60*5
 
-BSODPower = false
+BSODPower = true
 BSODSprite = spr_BSODPower
 BSODRate = 60*2
 
@@ -95,3 +95,4 @@ destroySeq = function(seqToDestroy){
 	layer_sequence_destroy(activeSeqs[seqToDestroy])
 	activeSeqs[seqToDestroy] = 0
 }
+
