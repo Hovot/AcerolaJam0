@@ -9,5 +9,3 @@ if(mouse_check_button_released(mb_left) && newX != x){
 	audio_group_set_gain(audioGroup, newX, 0)
 }
 
-
-

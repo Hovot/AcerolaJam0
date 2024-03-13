@@ -7,10 +7,6 @@ ad enemy gesture to wander
 remove gameManager / player from each room, its persistant
 
 
-Actual:
-add enemies to rooms
-
-
 NICE TO HAVES:
 Bosses (ad blocker)
 Sound effects

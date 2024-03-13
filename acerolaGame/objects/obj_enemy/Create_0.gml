@@ -33,7 +33,7 @@ sprite_index = choose(spr_bat, spr_goblin, spr_goblin2, spr_orc, spr_orc2, spr_r
 //mob deped
 spd = random_range(0.5, 1.0)
 attackRadius = random_range(100, 125)
-attackDmg = random_range(5, 10)
+attackDmg = random_range(5, 15)
 hitRadius = random_range(sprite_width/4, sprite_width/3)
 meleeStartRange = random_range(15 * image_xscale, 20 * image_xscale)
 meleeFinishRange = random_range(25 * image_xscale, 30 * image_xscale)

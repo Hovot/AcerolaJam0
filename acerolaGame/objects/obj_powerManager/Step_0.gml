@@ -1,5 +1,5 @@
 /// @description 
-if(room == MainMenu || room == OptionsMenu || room == EndOfGame || global.paused){
+if(room == MainMenu || room == OptionsMenu || room == EndOfGame || global.paused || obj_player.dead){
 alarm_set(0, -1)
 alarm_set(1, -1)
 alarm_set(2, -1)

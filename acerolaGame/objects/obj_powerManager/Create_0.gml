@@ -21,7 +21,7 @@ datingPower = false
 datingSprite = spr_datingPower
 datingRate = 30*60
 
-wandPower = false
+wandPower = true
 wandSprite = spr_wandPower
 wandRate = 60
 
