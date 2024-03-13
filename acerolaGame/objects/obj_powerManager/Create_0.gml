@@ -74,7 +74,7 @@ randomPower = function(){
 	
 	
 	choice = array_shuffle(options)[0] //why mad
-	if(array_length(options) == 27){choice = 0} //burger always comes first
+	//if(array_length(options) == 27){choice = 0} //burger always comes first
 	
 	newVals = []
 	for(var i = 0; i < array_length(options); i++){

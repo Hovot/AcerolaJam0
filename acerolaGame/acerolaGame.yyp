@@ -123,6 +123,7 @@
     {"id":{"name":"pth_shop","path":"paths/pth_shop/pth_shop.yy",},},
     {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},},
     {"id":{"name":"spr_burgerPower","path":"sprites/spr_burgerPower/spr_burgerPower.yy",},},
+    {"id":{"name":"spr_backGround","path":"sprites/spr_backGround/spr_backGround.yy",},},
     {"id":{"name":"ThemeIdeas","path":"notes/ThemeIdeas/ThemeIdeas.yy",},},
     {"id":{"name":"spr_teleporter","path":"sprites/spr_teleporter/spr_teleporter.yy",},},
     {"id":{"name":"spr_black","path":"sprites/spr_black/spr_black.yy",},},

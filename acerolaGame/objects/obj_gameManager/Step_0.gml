@@ -26,3 +26,5 @@ if(global.gameOver && !instance_exists(obj_button)&& !tryAgain){with(instance_cr
 if(global.gameOver && !instance_exists(obj_button) && tryAgain){with(instance_create_layer(obj_player.x, obj_player.y + 15, layer, obj_button)){buttonText = "Try Again!"; onClick = function(){obj_gameManager.restartLvl()}}}
 
 if(!audio_is_playing(s_music) && !audio_is_playing(s_tense) && alarm_get(0) <= 0){alarm_set(0, 60*120)}
+if(audio_is_playing(s_tense) && alarm_get(0) >= 0){alarm_set(0, -1)}
+

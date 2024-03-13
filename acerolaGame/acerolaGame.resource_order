@@ -94,6 +94,7 @@
     {"name":"obj_lever","order":7,"path":"objects/obj_lever/obj_lever.yy",},
     {"name":"Level_5","order":7,"path":"rooms/Level_5/Level_5.yy",},
     {"name":"spr_bat","order":4,"path":"sprites/spr_bat/spr_bat.yy",},
+    {"name":"spr_backGround","order":6,"path":"sprites/spr_backGround/spr_backGround.yy",},
     {"name":"spr_teleporter","order":1,"path":"sprites/spr_teleporter/spr_teleporter.yy",},
     {"name":"spr_black","order":5,"path":"sprites/spr_black/spr_black.yy",},
     {"name":"spr_potions","order":20,"path":"sprites/spr_potions/spr_potions.yy",},

@@ -7,6 +7,6 @@ attackDmg = 15
 hitRadius = sprite_width/3
 meleeStartRange = 20 * image_xscale
 meleeFinishRange = 35 * image_xscale
-hp = 300
-maxHP = 300
+hp = 500
+maxHP = 500
 
