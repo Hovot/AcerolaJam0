@@ -82,7 +82,7 @@ effect = fx_create("_filter_screenshake")
 layer_create(-1060, "screenShake")
 layer_set_fx("screenShake", effect)
 layer_enable_fx("screenShake", false)
-fx_set_parameter(effect, "g_Magnitude", 12)
+fx_set_parameter(effect, "g_Magnitude", 10)
 fx_set_parameter(effect, "g_ShakeSpeed", 0.45)
 layer_enable_fx("screenShake", false)
 
