@@ -47,6 +47,8 @@ earnLoot = function(val){
 takeDmg = function(val){
 	if(dead){return}
 	if(!audio_is_playing(s_playerDmg)){ audio_play_sound(s_playerDmg, 10, false) }
+	layer_enable_fx("screenShake", true)
+	alarm_set(4, 5)
 	if(alarm_get(0) <= 0){
 		hp -= val
 		hpPercent = (hp / maxHP) * 100
@@ -74,3 +76,14 @@ powerGained = 0
 
 
 randomize()
+gml_release_mode(true)
+
+effect = fx_create("_filter_screenshake")
+layer_create(-1060, "screenShake")
+layer_set_fx("screenShake", effect)
+layer_enable_fx("screenShake", false)
+fx_set_parameter(effect, "g_Magnitude", 12)
+fx_set_parameter(effect, "g_ShakeSpeed", 0.45)
+layer_enable_fx("screenShake", false)
+
+

@@ -11,12 +11,6 @@ Actual:
 powers - BSOD, bug, crash, clash, runner, skin
 add enemies to rooms
 add more loot
-credits
-
-
-
-
-
 
 
 NICE TO HAVES:
