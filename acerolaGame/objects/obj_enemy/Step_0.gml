@@ -1,5 +1,4 @@
 /// @description
-
 if(state == states.death){
 	if(fadeOut){ // a slow death
 		image_alpha -= 0.1

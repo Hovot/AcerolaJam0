@@ -19,7 +19,7 @@ powerUp = false
 
 
 mvSpd = 1
-sptSpd = 2.25
+sptSpd = 2.0
 spd = mvSpd
 
 money = 0
@@ -30,6 +30,7 @@ hpPercent = 100
 color = c_white
 
 immunityFrames = 30
+invin = false
 
 bulletDmg = 5
 
@@ -46,7 +47,10 @@ earnLoot = function(val){
 //take dmg
 takeDmg = function(val){
 	if(dead){return}
+	if(invin){return} 
+	if(val <= 0){return}
 	if(!audio_is_playing(s_playerDmg)){ audio_play_sound(s_playerDmg, 10, false) }
+	
 	layer_enable_fx("screenShake", true)
 	alarm_set(4, 5)
 	if(alarm_get(0) <= 0){

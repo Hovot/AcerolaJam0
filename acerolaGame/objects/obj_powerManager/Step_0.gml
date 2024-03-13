@@ -59,37 +59,57 @@ if(wandPower){
 //runner
 if(runnerPower && destroyTimes[5] == -1 && alarm_get(5) <= 0 ){
 	alarm_set(5, runnerRate)
-
+}
+if(runnerPower && layer_sequence_exists("Instances", activeSeqs[5])){
+	layer_sequence_x(activeSeqs[5], obj_player.x)
+	layer_sequence_y(activeSeqs[5], obj_player.y)
 }
 
 //clash
 if(clashPower && destroyTimes[6] == -1 && alarm_get(6) <= 0 ){
 	alarm_set(6, clashRate)
-
 }
+if(clashPower && layer_sequence_exists("Instances", activeSeqs[6])){
+	layer_sequence_x(activeSeqs[6], obj_player.x)
+	layer_sequence_y(activeSeqs[6], obj_player.y)
+}
+
 
 //skin
 if(skinPower && destroyTimes[7] == -1 && alarm_get(7) <= 0 ){
 	alarm_set(7, skinRate)
-
+}
+if(skinPower && layer_sequence_exists("Instances", activeSeqs[7])){
+	layer_sequence_x(activeSeqs[7], obj_player.x)
+	layer_sequence_y(activeSeqs[7], obj_player.y)
 }
 
 //bug
 if(bugPower && destroyTimes[8] == -1 && alarm_get(8) <= 0 ){
 	alarm_set(8, bugRate)
-
 }
+if(bugPower && layer_sequence_exists("Instances", activeSeqs[8])){
+	layer_sequence_x(activeSeqs[8], obj_player.x)
+	layer_sequence_y(activeSeqs[8], obj_player.y)
+}
+
 
 //crash
 if(crashPower && destroyTimes[9] == -1 && alarm_get(9) <= 0 ){
 	alarm_set(9, crashRate)
-
+}
+if(crashPower && layer_sequence_exists("Instances", activeSeqs[9])){
+	layer_sequence_x(activeSeqs[9], obj_player.x)
+	layer_sequence_y(activeSeqs[9], obj_player.y)
 }
 
 //BSOD
 if(BSODPower && destroyTimes[10] == -1 && alarm_get(10) <= 0 ){
 	alarm_set(10, BSODRate)
-
+}
+if(BSODPower && layer_sequence_exists("Instances", activeSeqs[10])){
+	layer_sequence_x(activeSeqs[10], obj_player.x)
+	layer_sequence_y(activeSeqs[10], obj_player.y)
 }
 
 
