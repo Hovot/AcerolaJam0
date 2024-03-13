@@ -8,7 +8,6 @@ remove gameManager / player from each room, its persistant
 
 
 Actual:
-make ads spawn correctly
 add enemies to rooms
 
 

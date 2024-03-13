@@ -5,7 +5,7 @@ burgerPower = true
 burgerSprite = spr_burgerPower
 burgerRate = 60
 
-raidPower = true
+raidPower = false
 raidSprite = spr_raidPower
 raidRate = 120
 
@@ -17,20 +17,20 @@ phonePower = true
 phoneSprite = spr_phonePower
 phoneRate = 3*60
 
-datingPower = true
+datingPower = false
 datingSprite = spr_datingPower
 datingRate = 30*60
 
-wandPower = true
+wandPower = false
 wandSprite = spr_wandPower
 wandRate = 60
 
 //rare 22% - 6/27
-runnerPower = true
+runnerPower = false
 runnerSprite = spr_runnerPower
 runnerRate = 90
 
-clashPower = true
+clashPower = false
 clashSprite = spr_clashPower
 clashRate = 600
 
@@ -39,7 +39,7 @@ skinSprite = spr_skinPower
 skinRate = 60*15
 
 //ultra rare 11% - 3/27
-bugPower = true
+bugPower = false
 bugSprite = spr_bugPower
 bugRate = 60*3
 
@@ -47,7 +47,7 @@ crashPower = true
 crashSprite = spr_crashPower
 crashRate = 60*5
 
-BSODPower = true
+BSODPower = false
 BSODSprite = spr_BSODPower
 BSODRate = 60*2
 

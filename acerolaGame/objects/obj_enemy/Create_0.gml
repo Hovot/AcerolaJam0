@@ -28,16 +28,17 @@ goalY = 0
 maxWanderTime = 120
 minWanderTime = 30
 
+sprite_index = choose(spr_bat, spr_goblin, spr_goblin2, spr_orc, spr_orc2, spr_rat, spr_skeleton, spr_slimeBlue, spr_slimeGreen, spr_slimeRed, spr_slimeYellow, spr_snake)
 
 //mob deped
-spd = 0.5
-attackRadius = 100
-attackDmg = 5
-hitRadius = sprite_width/3
-meleeStartRange = 15 * image_xscale
-meleeFinishRange = 25 * image_xscale
-hp = 25
-maxHP = 25
+spd = random_range(0.5, 1.0)
+attackRadius = random_range(100, 125)
+attackDmg = random_range(5, 10)
+hitRadius = random_range(sprite_width/4, sprite_width/3)
+meleeStartRange = random_range(15 * image_xscale, 20 * image_xscale)
+meleeFinishRange = random_range(25 * image_xscale, 30 * image_xscale)
+hp = irandom_range(25, 40)
+maxHP = variable_clone(hp)
 hpPercent = 100
 boss = false
 

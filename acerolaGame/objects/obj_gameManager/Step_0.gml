@@ -4,6 +4,7 @@ if(keyboard_check_pressed(vk_escape) && room != EndOfGame  && room != MainMenu &
 	global.paused = !global.paused
 	if(global.paused){
 		instance_deactivate_all(true)
+		instance_activate_object(obj_powerManager)
 		instance_create_depth(0, 0, -6000, obj_pauseMenu, {level : array_length(levelTimes)})
 	} else {
 		instance_destroy(obj_pauseMenu)
