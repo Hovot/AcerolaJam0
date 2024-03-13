@@ -1,7 +1,7 @@
 /// @description 
 
 //common 66% 18/27
-burgerPower = true
+burgerPower = false
 burgerSprite = spr_burgerPower
 burgerRate = 60
 
@@ -9,11 +9,11 @@ raidPower = false
 raidSprite = spr_raidPower
 raidRate = 120
 
-shavePower = true
+shavePower = false
 shaveSprite = spr_shavePower
 shaveRate = 45
 
-phonePower = true
+phonePower = false
 phoneSprite = spr_phonePower
 phoneRate = 3*60
 
@@ -21,7 +21,7 @@ datingPower = false
 datingSprite = spr_datingPower
 datingRate = 30*60
 
-wandPower = true
+wandPower = false
 wandSprite = spr_wandPower
 wandRate = 60
 
@@ -34,7 +34,7 @@ clashPower = false
 clashSprite = spr_clashPower
 clashRate = 600
 
-skinPower = true
+skinPower = false
 skinSprite = spr_skinPower
 skinRate = 60*15
 
@@ -43,7 +43,7 @@ bugPower = false
 bugSprite = spr_bugPower
 bugRate = 60*3
 
-crashPower = true
+crashPower = false
 crashSprite = spr_crashPower
 crashRate = 60*5
 
@@ -71,9 +71,10 @@ gainPower = function(numGained){
 options = [0,0,0, 1,1,1, 2,2,2, 3,3,3, 4,4,4, 5,5,5, 6,6, 7,7, 8,8, 9, 10, 11] //BEHOLD, probability
 randomPower = function(){
 	if(array_length(options) == 0){return 0} //got all the powers
-	if(array_length(options) == 27){return 0} //burger always comes first
+	
 	
 	choice = array_shuffle(options)[0] //why mad
+	if(array_length(options) == 27){choice = 0} //burger always comes first
 	
 	newVals = []
 	for(var i = 0; i < array_length(options); i++){

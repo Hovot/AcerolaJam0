@@ -4,10 +4,3 @@ with(obj_enemy){
 }
 alarm_set(0, -1)
 
-
-
-
-
-
-
-

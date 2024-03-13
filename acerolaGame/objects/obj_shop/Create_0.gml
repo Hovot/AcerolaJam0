@@ -89,7 +89,7 @@ with(button3){
 			if(audio_is_playing(s_pickupLoot)){ audio_stop_sound(s_pickupLoot) }
 			audio_play_sound(s_pickupLoot, 10, false)
 			obj_player.money -= 50
-			obj_player.bulletDmg = 10
+			obj_player.bulletDmg = 5
 			array_push(obj_gameManager.purchased, 3)
 			enabled = false
 		}

@@ -33,7 +33,7 @@ pickPowerAndPlay = function(){
 }
 
 effect = fx_create("_filter_edgedetect")
-layer_create(-1050, "BugEffect")
+layer_create(-10050, "BugEffect")
 layer_set_fx("BugEffect", effect)
 layer_enable_fx("BugEffect", false)
 

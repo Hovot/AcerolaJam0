@@ -24,7 +24,8 @@ if(not looted){
 	
 	
 		//play seq
-		seq = layer_sequence_create("Instances", x, y, dropSeq)
+		layer_create(depth, string(id))
+		seq = layer_sequence_create(string(id), x, y, dropSeq)
 		layer_sequence_xscale(seq, image_xscale * seqDir)
 		layer_sequence_yscale(seq, image_yscale)
 	

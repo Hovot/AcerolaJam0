@@ -4,7 +4,7 @@
 event_inherited();
 if(numHits > 0){
 	if(obj_player.hpPercent < 100){
-		obj_player.heal(1)
+		obj_player.heal(5)
 		numHits--
 	}
 }
