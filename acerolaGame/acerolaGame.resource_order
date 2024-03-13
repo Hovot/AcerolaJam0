@@ -184,6 +184,7 @@
     {"name":"obj_door","order":8,"path":"objects/obj_door/obj_door.yy",},
     {"name":"spr_datingPower","order":5,"path":"sprites/spr_datingPower/spr_datingPower.yy",},
     {"name":"sq_adRunnerSuck","order":7,"path":"sequences/sq_adRunnerSuck/sq_adRunnerSuck.yy",},
+    {"name":"spr_itchIcon","order":7,"path":"sprites/spr_itchIcon/spr_itchIcon.yy",},
     {"name":"spr_CrashAd","order":13,"path":"sprites/spr_CrashAd/spr_CrashAd.yy",},
     {"name":"spr_fixMe","order":12,"path":"sprites/spr_fixMe/spr_fixMe.yy",},
     {"name":"obj_loot3","order":15,"path":"objects/obj_loot3/obj_loot3.yy",},

@@ -220,6 +220,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"spr_datingPower","path":"sprites/spr_datingPower/spr_datingPower.yy",},},
     {"id":{"name":"sq_adRunnerSuck","path":"sequences/sq_adRunnerSuck/sq_adRunnerSuck.yy",},},
+    {"id":{"name":"spr_itchIcon","path":"sprites/spr_itchIcon/spr_itchIcon.yy",},},
     {"id":{"name":"spr_CrashAd","path":"sprites/spr_CrashAd/spr_CrashAd.yy",},},
     {"id":{"name":"spr_fixMe","path":"sprites/spr_fixMe/spr_fixMe.yy",},},
     {"id":{"name":"obj_loot3","path":"objects/obj_loot3/obj_loot3.yy",},},
