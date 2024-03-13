@@ -187,7 +187,6 @@
     {"name":"obj_loot3","order":26,"path":"objects/obj_loot3/obj_loot3.yy",},
     {"name":"spr_goblin","order":9,"path":"sprites/spr_goblin/spr_goblin.yy",},
     {"name":"spr_BSODAd","order":14,"path":"sprites/spr_BSODAd/spr_BSODAd.yy",},
-    {"name":"spr_coin","order":6,"path":"sprites/spr_coin/spr_coin.yy",},
     {"name":"spr_shaverAd","order":1,"path":"sprites/spr_shaverAd/spr_shaverAd.yy",},
     {"name":"spr_title","order":1,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"sq_lootDropCommonRight","order":7,"path":"sequences/sq_lootDropCommonRight/sq_lootDropCommonRight.yy",},

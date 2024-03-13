@@ -19,7 +19,7 @@ if(mouse_check_button_released(mb_left)){
 	cursor_sprite = spr_wandCursor
 }
 
-if(!global.paused){totalTime++}
+if(!global.paused && room != MainMenu && room != OptionsMenu){totalTime++}
 
 if(global.gameOver && !instance_exists(obj_button)){with(instance_create_layer(obj_player.x, obj_player.y + 15, layer, obj_button)){buttonText = "Try Again!"; onClick = function(){game_restart()}}}
 

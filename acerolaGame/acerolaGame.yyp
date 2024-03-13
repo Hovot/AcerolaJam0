@@ -224,7 +224,6 @@
     {"id":{"name":"ts_main","path":"tilesets/ts_main/ts_main.yy",},},
     {"id":{"name":"spr_goblin","path":"sprites/spr_goblin/spr_goblin.yy",},},
     {"id":{"name":"spr_BSODAd","path":"sprites/spr_BSODAd/spr_BSODAd.yy",},},
-    {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},
     {"id":{"name":"spr_shaverAd","path":"sprites/spr_shaverAd/spr_shaverAd.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"sq_lootDropCommonRight","path":"sequences/sq_lootDropCommonRight/sq_lootDropCommonRight.yy",},},

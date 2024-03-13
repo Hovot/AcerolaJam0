@@ -12,6 +12,7 @@
     {"name":"inst_4AA33263","path":"rooms/OptionsMenu/OptionsMenu.yy",},
     {"name":"inst_35A5A5DC","path":"rooms/OptionsMenu/OptionsMenu.yy",},
     {"name":"inst_5DA68AE7","path":"rooms/OptionsMenu/OptionsMenu.yy",},
+    {"name":"inst_148842F6","path":"rooms/OptionsMenu/OptionsMenu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -104,6 +105,7 @@
           ],"rotation":-0.15576635,"scaleX":2.0,"scaleY":2.0,"x":240.98969,"y":158.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35A5A5DC","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":431.0,"y":222.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5DA68AE7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":408.0,"y":119.34793,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_148842F6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":84.0,"y":110.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_5","depth":300,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
