@@ -10,6 +10,11 @@ draw_set_font(-1)
 draw_set_halign(-1)
 draw_set_valign(-1)
 
+draw_set_font(f_timerText)
+draw_set_halign(fa_right)
+draw_text_transformed_color(surface_get_width(application_surface) - 25, 150 - 50, "Gold: " + string(gold), 1, 1, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1)
+draw_set_font(-1)
+draw_set_halign(-1)
 
 //draw times
 var index = 0
