@@ -75,6 +75,7 @@
     {"name":"spr_shavePower","order":2,"path":"sprites/spr_shavePower/spr_shavePower.yy",},
     {"name":"spr_orc2","order":12,"path":"sprites/spr_orc2/spr_orc2.yy",},
     {"name":"spr_wandAd","order":8,"path":"sprites/spr_wandAd/spr_wandAd.yy",},
+    {"name":"spr_levels","order":7,"path":"sprites/spr_levels/spr_levels.yy",},
     {"name":"obj_skinPower","order":10,"path":"objects/obj_skinPower/obj_skinPower.yy",},
     {"name":"obj_credits","order":5,"path":"objects/obj_credits/obj_credits.yy",},
     {"name":"spr_items","order":17,"path":"sprites/spr_items/spr_items.yy",},

@@ -99,6 +99,7 @@
     {"id":{"name":"spr_orc2","path":"sprites/spr_orc2/spr_orc2.yy",},},
     {"id":{"name":"spr_wandAd","path":"sprites/spr_wandAd/spr_wandAd.yy",},},
     {"id":{"name":"obj_burgerPower","path":"objects/obj_burgerPower/obj_burgerPower.yy",},},
+    {"id":{"name":"spr_levels","path":"sprites/spr_levels/spr_levels.yy",},},
     {"id":{"name":"obj_skinPower","path":"objects/obj_skinPower/obj_skinPower.yy",},},
     {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
     {"id":{"name":"spr_items","path":"sprites/spr_items/spr_items.yy",},},

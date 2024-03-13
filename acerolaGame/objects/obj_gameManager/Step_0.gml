@@ -24,4 +24,4 @@ if(!global.paused && room != MainMenu && room != OptionsMenu){totalTime++}
 
 if(global.gameOver && !instance_exists(obj_button)){with(instance_create_layer(obj_player.x, obj_player.y + 15, layer, obj_button)){buttonText = "Try Again!"; onClick = function(){game_restart()}}}
 
-if(!audio_is_playing(s_music) && !audio_is_playing(s_tense) && alarm_get(0) <= 0){alarm_set(0, 60*60)}
+if(!audio_is_playing(s_music) && !audio_is_playing(s_tense) && alarm_get(0) <= 0){alarm_set(0, 60*120)}

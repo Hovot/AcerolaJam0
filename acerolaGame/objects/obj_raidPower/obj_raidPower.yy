@@ -6,6 +6,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_power","path":"objects/obj_power/obj_power.yy",},"propertyId":{"name":"dmg","path":"objects/obj_power/obj_power.yy",},"value":"10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_power","path":"objects/obj_power/obj_power.yy",},"propertyId":{"name":"numHits","path":"objects/obj_power/obj_power.yy",},"value":"4",},
   ],
   "parent": {
     "name": "powers",

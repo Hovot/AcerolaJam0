@@ -4,7 +4,9 @@
   "name": "obj_phonePower",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_power","path":"objects/obj_power/obj_power.yy",},"propertyId":{"name":"numHits","path":"objects/obj_power/obj_power.yy",},"value":"3",},
+  ],
   "parent": {
     "name": "powers",
     "path": "folders/Objects/powers.yy",
