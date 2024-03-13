@@ -5,6 +5,7 @@ global.returnRoom = MainMenu
 
 fakePause = false
 cameraPause = false
+tryAgain = true
 
 pauseAllButMe = function(){
 	fakePause = !fakePause
@@ -56,3 +57,12 @@ unPause = function(){
 }
 
 purchased = []
+
+restartLvl = function(){
+	with(obj_button){instance_destroy()}
+	tryAgain = false
+	global.gameOver = false
+	obj_player.dead = false
+	obj_player.hp = obj_player.maxHP
+	obj_player.image_speed = 1
+}
