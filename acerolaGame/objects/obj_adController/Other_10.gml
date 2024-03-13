@@ -4,7 +4,14 @@ obj_gameManager.pauseAllButMe()
 
 if(adSeq == sq_adBug){
 	obj_gameManager.pauseAllButMe()
+	if(!layer_exists("BugEffect")){
+		effect = fx_create("_filter_edgedetect")
+		layer_create(-10050, "BugEffect")
+		layer_set_fx("BugEffect", effect)
+	}
+		
 	layer_enable_fx("BugEffect", true)
+	show_debug_message("ere")
 }
 
 //play seq
